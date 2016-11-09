@@ -1,2 +1,3 @@
 # hello-Papyrus
 First project on gitHub for learning and more...
+This project will be for short term collaboration stuff
