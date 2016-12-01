@@ -6,14 +6,14 @@
       <ownedComment xmi:type="uml:Comment" xmi:id="_16Mf0KXjEeaqB-V_5dVR3g" annotatedElement="_AifGwKILEeaKBMORwIkd5w">
         <body>Description of a Payee Agent</body>
       </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="__2Ln0KXjEeaqB-V_5dVR3g" annotatedElement="_AifGwKILEeaKBMORwIkd5w _CZrccKIMEeaKBtNriVhesw">
-        <body>Description of a Payee Agent</body>
+      <ownedComment xmi:type="uml:Comment" xmi:id="__2Ln0KXjEeaqB-V_5dVR3g" annotatedElement="_CZrccKIMEeaKBtNriVhesw">
+        <body>Description of a Payer Agent</body>
       </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_A5EBIKXkEeaqB-V_5dVR3g" annotatedElement="_AifGwKILEeaKBMORwIkd5w _FGqckKILEeaKBMORwIkd5w">
-        <body>Description of a Payee Agent</body>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_A5EBIKXkEeaqB-V_5dVR3g" annotatedElement="_FGqckKILEeaKBMORwIkd5w">
+        <body>Description of a Tax Agent</body>
       </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_CBmWgKXkEeaqB-V_5dVR3g" annotatedElement="_AifGwKILEeaKBMORwIkd5w _GlbrMKIMEeaKBtNriVhesw">
-        <body>Description of a Payee Agent</body>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_CBmWgKXkEeaqB-V_5dVR3g" annotatedElement="_GlbrMKIMEeaKBtNriVhesw">
+        <body>Description of Xalgorithmns Registry</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Actor" xmi:id="_AifGwKILEeaKBMORwIkd5w" name="Payee Agent"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_FGqckKILEeaKBMORwIkd5w" name="Tax Agent"/>
