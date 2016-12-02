@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WXIGUKbCEeafROfZJd45vA" name="XA-Models">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WXIGUKbCEeafROfZJd45vA" name="XA-Models">
   <packagedElement xmi:type="uml:Package" xmi:id="_Nk0zULgSEearqqjaoI8idQ" name="Use Cases">
     <packagedElement xmi:type="uml:Package" xmi:id="_R6XQMLgSEearqqjaoI8idQ" name="Actors">
       <packagedElement xmi:type="uml:Actor" xmi:id="_WVnTgLgSEearqqjaoI8idQ" name="End User">
         <ownedComment xmi:type="uml:Comment" xmi:id="_3C4wELgUEearqqjaoI8idQ" annotatedElement="_WVnTgLgSEearqqjaoI8idQ">
-          <body>An End user is any user that interacts with a system that used Lichen services.</body>
+          <body>An End user is any user that interacts with a system that uses Lichen services.</body>
         </ownedComment>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_qT94ULgSEearqqjaoI8idQ" name="e-Commerce Application">
@@ -24,6 +24,124 @@ the e-commerce applicaiton is the link between the end user and various other en
         </ownedComment>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_V0CMcLg-EearqqjaoI8idQ" name="Use Case - Transaction_Taxes_Credits"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V0CMcLg-EearqqjaoI8idQ" name="Use Case - One-Pass Tax">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_AoFsULiwEeagUcy4ezT-AQ" name="One-Pass Tax UC">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_D4o3ELiwEeagUcy4ezT-AQ" annotatedElement="_AoFsULiwEeagUcy4ezT-AQ">
+          <body>Xalgorithms Use Case - One-Pass Tax - Transaction Taxes/Credits
+.
+------------
+Background:
+.
+Katla, A musician from Reykjavík (Iceland), travels to perform at the Montreal (Canada) Jazz Festival. On arrival she finds her almost-new guitar damaged in transit. Full reimbursement assured, her more immediate problem is to keep her concert schedule two days later. She contacts the manufacturer, Awesome Guitars (Nashville, TN, USA), to have a new guitar sent by courier to Montreal. The vendor’s e-commerce site, enhanced with Lichen Xalgorithms, recognizes her identity, the product code and jurisdictions, and pulls in the relevant tax and duty rules. The correct amounts are paid directly to the Icelandic revenue agency, and the shipping manifest validates that this courier package is pre-cleared for Canadian customs. She receives her replacement guitar in time for the concert. Furthermore, she is free from the hassle of claiming back Canadian tax at the airport upon departure, or paying Icelandic sales tax upon arrival back in Reykjavík. The required taxes and duties were dealt with all in one pass.
+-------------
+Preconditions
+* User's guitar was damaged in transit
+.
+----------
+Use Case
+* Katla logs on to guitar manufacturer's e-commerce site
+* Katla selects a new guitar and arange for a delivery to Montreal
+* The manufacturer's e-commerce site, enhanced with Lichen, recognizes Katla's identity, the product code, and the various jurisdictions involved, and displays the relevant taxes and duties.
+- use &quot;Lichen&quot; use case, TBD
+* Katla reviews all this information and buys the guitar.
+.
+---------------
+PostConditions
+.
+* Guitar delivery is accelerated as all fees (e.g. shipping, customs, etc.) are pre-paid and Katla gets the guitar in time to perform at the concert.
+* Because the system also knew that Katla is a resident of Iceland, all duties to bring the new guitar into Iceland have been paid, making Katla's return Iceland worry-free.
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_okFHcLi0EeagUcy4ezT-AQ" memberEnd="_okJ_8Li0EeagUcy4ezT-AQ _okJ_8bi0EeagUcy4ezT-AQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_okHjsLi0EeagUcy4ezT-AQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_okHjsbi0EeagUcy4ezT-AQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_okJ_8Li0EeagUcy4ezT-AQ" name="one-pass tax" type="_AoFsULiwEeagUcy4ezT-AQ" association="_okFHcLi0EeagUcy4ezT-AQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_okJ_8bi0EeagUcy4ezT-AQ" name="end user" type="_WVnTgLgSEearqqjaoI8idQ" association="_okFHcLi0EeagUcy4ezT-AQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_Pm6sALjEEeagUcy4ezT-AQ" name="One-Pass Tax - interaction">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_U3l7cLjEEeagUcy4ezT-AQ" name="Katla" coveredBy="_R8waoLjHEeagUcy4ezT-AQ _ToKMgLjHEeagUcy4ezT-AQ _bp-G0LjHEeagUcy4ezT-AQ _hiVBULjHEeagUcy4ezT-AQ _n187gbjHEeagUcy4ezT-AQ _bKdY8LjKEeagUcy4ezT-AQ _bKeAALjKEeagUcy4ezT-AQ _iXiDoLjKEeagUcy4ezT-AQ _SSKGELjLEeagUcy4ezT-AQ _CnThULjMEeagUcy4ezT-AQ _DAgrgLjMEeagUcy4ezT-AQ"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_pHZxwLjGEeagUcy4ezT-AQ" name="Awesome Guitars eCommerce" coveredBy="_R8waobjHEeagUcy4ezT-AQ _ToJlcLjHEeagUcy4ezT-AQ _bp-t4LjHEeagUcy4ezT-AQ _hiVoYLjHEeagUcy4ezT-AQ _n19ikLjHEeagUcy4ezT-AQ _p03fQLjHEeagUcy4ezT-AQ _1IiL4LjHEeagUcy4ezT-AQ _lVHrkLjJEeagUcy4ezT-AQ _udTYEbjJEeagUcy4ezT-AQ _-YGn4LjJEeagUcy4ezT-AQ _iXhckLjKEeagUcy4ezT-AQ _Gz-LgLjLEeagUcy4ezT-AQ _SSKtILjLEeagUcy4ezT-AQ _aUzt4LjLEeagUcy4ezT-AQ _7FlcULjLEeagUcy4ezT-AQ _CnS6QLjMEeagUcy4ezT-AQ"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_tSUdkLjHEeagUcy4ezT-AQ" name="Lichen" coveredBy="_zOIUsLjHEeagUcy4ezT-AQ _zOHtobjHEeagUcy4ezT-AQ _1IiL4bjHEeagUcy4ezT-AQ _YeGyULjIEeagUcy4ezT-AQ _dLYZwbjIEeagUcy4ezT-AQ _4QAdsLjIEeagUcy4ezT-AQ"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_BNkEALjIEeagUcy4ezT-AQ" name="Registry" coveredBy="_GIshQbjIEeagUcy4ezT-AQ _GIshQLjIEeagUcy4ezT-AQ _YeGyUbjIEeagUcy4ezT-AQ _dLYZwLjIEeagUcy4ezT-AQ"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_nvRPQLjIEeagUcy4ezT-AQ" name="Transformation Records Storage" coveredBy="_2q6vMLjIEeagUcy4ezT-AQ _2q6IILjIEeagUcy4ezT-AQ _4QBEwLjIEeagUcy4ezT-AQ _VOQVsbjJEeagUcy4ezT-AQ _VOQVsLjJEeagUcy4ezT-AQ _knctQLjJEeagUcy4ezT-AQ _lVISoLjJEeagUcy4ezT-AQ _udTYELjJEeagUcy4ezT-AQ"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_85I6ELjKEeagUcy4ezT-AQ" name="Payer" coveredBy="_Ph_EgLjLEeagUcy4ezT-AQ _aU0U8LjLEeagUcy4ezT-AQ _r299ELjLEeagUcy4ezT-AQ _y_k-gLjLEeagUcy4ezT-AQ _7FkOMLjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_R8waoLjHEeagUcy4ezT-AQ" name="MessageSend" covered="_U3l7cLjEEeagUcy4ezT-AQ" message="_R8vzkLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_R8waobjHEeagUcy4ezT-AQ" name="MessageRecv" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_R8vzkLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ToJlcLjHEeagUcy4ezT-AQ" name="MessageSend0" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_ToI-YLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ToKMgLjHEeagUcy4ezT-AQ" name="MessageRecv0" covered="_U3l7cLjEEeagUcy4ezT-AQ" message="_ToI-YLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bp-G0LjHEeagUcy4ezT-AQ" name="MessageSend1" covered="_U3l7cLjEEeagUcy4ezT-AQ" message="_bp9fwLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bp-t4LjHEeagUcy4ezT-AQ" name="MessageRecv1" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_bp9fwLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hiVBULjHEeagUcy4ezT-AQ" name="MessageSend2" covered="_U3l7cLjEEeagUcy4ezT-AQ" message="_hiUaQLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hiVoYLjHEeagUcy4ezT-AQ" name="MessageRecv2" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_hiUaQLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_bKdY8LjKEeagUcy4ezT-AQ" name="BehaviorExecSpec6Start" covered="_U3l7cLjEEeagUcy4ezT-AQ" execution="_bKeAALjKEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_bKeAALjKEeagUcy4ezT-AQ" name="Buy guitar" covered="_U3l7cLjEEeagUcy4ezT-AQ" finish="_DAgrgLjMEeagUcy4ezT-AQ" start="_bKdY8LjKEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_n187gbjHEeagUcy4ezT-AQ" name="MessageSend3" covered="_U3l7cLjEEeagUcy4ezT-AQ" message="_n187gLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_p03fQLjHEeagUcy4ezT-AQ" name="BehaviorExecSpec" covered="_pHZxwLjGEeagUcy4ezT-AQ" finish="_-YGn4LjJEeagUcy4ezT-AQ" start="_n19ikLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_n19ikLjHEeagUcy4ezT-AQ" name="MessageRecv3" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_n187gLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_zOHtobjHEeagUcy4ezT-AQ" name="BehaviorExecSpec0" covered="_tSUdkLjHEeagUcy4ezT-AQ" finish="_zOIUsLjHEeagUcy4ezT-AQ" start="_1IiL4bjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1IiL4LjHEeagUcy4ezT-AQ" name="MessageSend4" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_1Ihk0LjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1IiL4bjHEeagUcy4ezT-AQ" name="MessageRecv4" covered="_tSUdkLjHEeagUcy4ezT-AQ" message="_1Ihk0LjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YeGyULjIEeagUcy4ezT-AQ" name="MessageSend5" covered="_tSUdkLjHEeagUcy4ezT-AQ" message="_YeGLQLjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_GIshQLjIEeagUcy4ezT-AQ" name="BehaviorExecSpec1" covered="_BNkEALjIEeagUcy4ezT-AQ" finish="_GIshQbjIEeagUcy4ezT-AQ" start="_YeGyUbjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YeGyUbjIEeagUcy4ezT-AQ" name="MessageRecv5" covered="_BNkEALjIEeagUcy4ezT-AQ" message="_YeGLQLjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dLYZwLjIEeagUcy4ezT-AQ" name="MessageSend6" covered="_BNkEALjIEeagUcy4ezT-AQ" message="_dLXysLjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dLYZwbjIEeagUcy4ezT-AQ" name="MessageRecv6" covered="_tSUdkLjHEeagUcy4ezT-AQ" message="_dLXysLjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_GIshQbjIEeagUcy4ezT-AQ" name="BehaviorExecSpec1Finish" covered="_BNkEALjIEeagUcy4ezT-AQ" execution="_GIshQLjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4QAdsLjIEeagUcy4ezT-AQ" name="MessageSend7" covered="_tSUdkLjHEeagUcy4ezT-AQ" message="_4P_2oLjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_2q6IILjIEeagUcy4ezT-AQ" name="BehaviorExecSpec2" covered="_nvRPQLjIEeagUcy4ezT-AQ" finish="_2q6vMLjIEeagUcy4ezT-AQ" start="_4QBEwLjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4QBEwLjIEeagUcy4ezT-AQ" name="MessageRecv7" covered="_nvRPQLjIEeagUcy4ezT-AQ" message="_4P_2oLjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_zOIUsLjHEeagUcy4ezT-AQ" name="BehaviorExecSpec0Finish" covered="_tSUdkLjHEeagUcy4ezT-AQ" execution="_zOHtobjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Vn4hMLjKEeagUcy4ezT-AQ" name="BehaviorExecSpec5Start" execution="_Vn5IQLjKEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Vn5IQLjKEeagUcy4ezT-AQ" name="BehaviorExecSpec5" finish="_Vn5IQbjKEeagUcy4ezT-AQ" start="_Vn4hMLjKEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2q6vMLjIEeagUcy4ezT-AQ" name="BehaviorExecSpec2Finish" covered="_nvRPQLjIEeagUcy4ezT-AQ" execution="_2q6IILjIEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lVHrkLjJEeagUcy4ezT-AQ" name="Message0Send" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_lVHEgLjJEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_VOQVsLjJEeagUcy4ezT-AQ" name="BehaviorExecSpec3" covered="_nvRPQLjIEeagUcy4ezT-AQ" finish="_VOQVsbjJEeagUcy4ezT-AQ" start="_lVISoLjJEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lVISoLjJEeagUcy4ezT-AQ" name="Message0Recv" covered="_nvRPQLjIEeagUcy4ezT-AQ" message="_lVHEgLjJEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_udTYELjJEeagUcy4ezT-AQ" name="MessageSend8" covered="_nvRPQLjIEeagUcy4ezT-AQ" message="_udSxALjJEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_knctQLjJEeagUcy4ezT-AQ" name="BehaviorExecSpec3Start" covered="_nvRPQLjIEeagUcy4ezT-AQ" execution="_VOQVsLjJEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_VOQVsbjJEeagUcy4ezT-AQ" name="BehaviorExecSpec3Finish" covered="_nvRPQLjIEeagUcy4ezT-AQ" execution="_VOQVsLjJEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_udTYEbjJEeagUcy4ezT-AQ" name="MessageRecv8" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_udSxALjJEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Vn5IQbjKEeagUcy4ezT-AQ" name="BehaviorExecSpec5Finish" execution="_Vn5IQLjKEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iXhckLjKEeagUcy4ezT-AQ" name="MessageSend9" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_iXgOcLjKEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_-YGn4LjJEeagUcy4ezT-AQ" name="BehaviorExecSpecFinish" covered="_pHZxwLjGEeagUcy4ezT-AQ" execution="_p03fQLjHEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iXiDoLjKEeagUcy4ezT-AQ" name="MessageRecv9" covered="_U3l7cLjEEeagUcy4ezT-AQ" message="_iXgOcLjKEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SSKGELjLEeagUcy4ezT-AQ" name="MessageSend10" covered="_U3l7cLjEEeagUcy4ezT-AQ" message="_SSJfALjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Gz-LgLjLEeagUcy4ezT-AQ" name="BehaviorExecSpec6" covered="_pHZxwLjGEeagUcy4ezT-AQ" finish="_CnS6QLjMEeagUcy4ezT-AQ" start="_SSKtILjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SSKtILjLEeagUcy4ezT-AQ" name="MessageRecv10" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_SSJfALjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_r299ELjLEeagUcy4ezT-AQ" name="MessageSend" covered="_85I6ELjKEeagUcy4ezT-AQ" message="_qbp1oLjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Ph_EgLjLEeagUcy4ezT-AQ" name="BehaviorExecSpec7" covered="_85I6ELjKEeagUcy4ezT-AQ" finish="_7FkOMLjLEeagUcy4ezT-AQ" start="_aU0U8LjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aUzt4LjLEeagUcy4ezT-AQ" name="MessageSend11" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_aUzG0LjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aU0U8LjLEeagUcy4ezT-AQ" name="MessageRecv" covered="_85I6ELjKEeagUcy4ezT-AQ" message="_aUzG0LjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_kFdIkLjLEeagUcy4ezT-AQ" name="ActionExecSpecStart" execution="_kFdvoLjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_kFdvoLjLEeagUcy4ezT-AQ" name="Pay all parties" finish="_kFeWsLjLEeagUcy4ezT-AQ" start="_kFdIkLjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_kFeWsLjLEeagUcy4ezT-AQ" name="ActionExecSpecFinish" execution="_kFdvoLjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_y_k-gLjLEeagUcy4ezT-AQ" name="MessageRecv" covered="_85I6ELjKEeagUcy4ezT-AQ" message="_y_jwYLjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7FkOMLjLEeagUcy4ezT-AQ" name="MessageSend" covered="_85I6ELjKEeagUcy4ezT-AQ" message="_7FjAELjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7FlcULjLEeagUcy4ezT-AQ" name="MessageRecv" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_7FjAELjLEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CnS6QLjMEeagUcy4ezT-AQ" name="MessageSend" covered="_pHZxwLjGEeagUcy4ezT-AQ" message="_CnSTMLjMEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CnThULjMEeagUcy4ezT-AQ" name="MessageRecv" covered="_U3l7cLjEEeagUcy4ezT-AQ" message="_CnSTMLjMEeagUcy4ezT-AQ"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_DAgrgLjMEeagUcy4ezT-AQ" name="Buy guitarFinish" covered="_U3l7cLjEEeagUcy4ezT-AQ" execution="_bKeAALjKEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_R8vzkLjHEeagUcy4ezT-AQ" name="Log on" receiveEvent="_R8waobjHEeagUcy4ezT-AQ" sendEvent="_R8waoLjHEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_ToI-YLjHEeagUcy4ezT-AQ" name="Show welcome message" receiveEvent="_ToKMgLjHEeagUcy4ezT-AQ" sendEvent="_ToJlcLjHEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_bp9fwLjHEeagUcy4ezT-AQ" name="Browse" messageSort="asynchCall" receiveEvent="_bp-t4LjHEeagUcy4ezT-AQ" sendEvent="_bp-G0LjHEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_hiUaQLjHEeagUcy4ezT-AQ" name="Pick guitar" messageSort="asynchCall" receiveEvent="_hiVoYLjHEeagUcy4ezT-AQ" sendEvent="_hiVBULjHEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_n187gLjHEeagUcy4ezT-AQ" name="Purchase guitar" receiveEvent="_n19ikLjHEeagUcy4ezT-AQ" sendEvent="_n187gbjHEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_1Ihk0LjHEeagUcy4ezT-AQ" name="Send transaction data" messageSort="asynchCall" receiveEvent="_1IiL4bjHEeagUcy4ezT-AQ" sendEvent="_1IiL4LjHEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_YeGLQLjIEeagUcy4ezT-AQ" name="Get rules package" receiveEvent="_YeGyUbjIEeagUcy4ezT-AQ" sendEvent="_YeGyULjIEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_dLXysLjIEeagUcy4ezT-AQ" name="Return found rules package" messageSort="reply" receiveEvent="_dLYZwbjIEeagUcy4ezT-AQ" sendEvent="_dLYZwLjIEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_4P_2oLjIEeagUcy4ezT-AQ" name="Push result data &amp; references" receiveEvent="_4QBEwLjIEeagUcy4ezT-AQ" sendEvent="_4QAdsLjIEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_lVHEgLjJEeagUcy4ezT-AQ" name="Pull results data &amp; references" receiveEvent="_lVISoLjJEeagUcy4ezT-AQ" sendEvent="_lVHrkLjJEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_udSxALjJEeagUcy4ezT-AQ" name="Results data and references" messageSort="reply" receiveEvent="_udTYEbjJEeagUcy4ezT-AQ" sendEvent="_udTYELjJEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_iXgOcLjKEeagUcy4ezT-AQ" name="Show invoice with taxes, etc." messageSort="reply" receiveEvent="_iXiDoLjKEeagUcy4ezT-AQ" sendEvent="_iXhckLjKEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_SSJfALjLEeagUcy4ezT-AQ" name="Confirm order" receiveEvent="_SSKtILjLEeagUcy4ezT-AQ" sendEvent="_SSKGELjLEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_aUzG0LjLEeagUcy4ezT-AQ" name="Inform Payer of disbursements" messageSort="asynchCall" receiveEvent="_aU0U8LjLEeagUcy4ezT-AQ" sendEvent="_aUzt4LjLEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_qbp1oLjLEeagUcy4ezT-AQ" name="Pay all parties" sendEvent="_r299ELjLEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_y_jwYLjLEeagUcy4ezT-AQ" name="All payees paid" messageSort="reply" receiveEvent="_y_k-gLjLEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_7FjAELjLEeagUcy4ezT-AQ" name="Payments complete" messageSort="reply" receiveEvent="_7FlcULjLEeagUcy4ezT-AQ" sendEvent="_7FkOMLjLEeagUcy4ezT-AQ"/>
+        <message xmi:type="uml:Message" xmi:id="_CnSTMLjMEeagUcy4ezT-AQ" name="Tansaction complete" messageSort="reply" receiveEvent="_CnThULjMEeagUcy4ezT-AQ" sendEvent="_CnS6QLjMEeagUcy4ezT-AQ"/>
+      </packagedElement>
+    </packagedElement>
   </packagedElement>
 </uml:Model>

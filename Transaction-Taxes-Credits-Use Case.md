@@ -1,4 +1,4 @@
-#Xalgorithms Use Case - Transaction Taxes/Credits -- One=Pass Tax
+#Xalgorithms Use Case - Transaction Taxes/Credits -- One-Pass Tax
 
 ##Background
 
