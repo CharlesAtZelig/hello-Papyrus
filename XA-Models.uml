@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WXIGUKbCEeafROfZJd45vA" name="XA-Models"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WXIGUKbCEeafROfZJd45vA" name="XA-Models">
+  <packagedElement xmi:type="uml:Package" xmi:id="_Nk0zULgSEearqqjaoI8idQ" name="Use Cases">
+    <packagedElement xmi:type="uml:Package" xmi:id="_R6XQMLgSEearqqjaoI8idQ" name="Actors">
+      <packagedElement xmi:type="uml:Actor" xmi:id="_WVnTgLgSEearqqjaoI8idQ" name="End User">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_3C4wELgUEearqqjaoI8idQ" annotatedElement="_WVnTgLgSEearqqjaoI8idQ">
+          <body>An End user is any user that interacts with a system that used Lichen services.</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_qT94ULgSEearqqjaoI8idQ" name="e-Commerce Application">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_OUt30LgVEearqqjaoI8idQ" annotatedElement="_R6XQMLgSEearqqjaoI8idQ">
+          <body>An e-commerce applications allows a transaction to take place.
+the e-commerce applicaiton is the link between the end user and various other entities (e.g., payer, payee, tax agent, loyoltay agent, etc.)</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_ZPkGsLgTEearqqjaoI8idQ" name="Lichen">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_GFOG0LgVEearqqjaoI8idQ" annotatedElement="_ZPkGsLgTEearqqjaoI8idQ">
+          <body>Lichen is a web application that accepts and runs rules over UBL documents .</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="__VGTULgTEearqqjaoI8idQ" name="Registry">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_eK9XwLgVEearqqjaoI8idQ" annotatedElement="__VGTULgTEearqqjaoI8idQ">
+          <body>The registry is Algorithms; federated registry of rules.</body>
+        </ownedComment>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V0CMcLg-EearqqjaoI8idQ" name="Use Case - Transaction_Taxes_Credits"/>
+  </packagedElement>
+</uml:Model>
