@@ -139,29 +139,16 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_LUkWoKaoEeaj_enj8_Mmfw" name="repository" type="_I71ksKaoEeaj_enj8_Mmfw" association="_LUh6YKaoEeaj_enj8_Mmfw"/>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interaction" xmi:id="_VeC4QHkaEeaVt_QtpYgWvg" name="Lichen Usage">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_x-BK0Ka3EeafROfZJd45vA" name="" type="_zc5RoHkaEeaVt_QtpYgWvg"/>
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_cQVrcHkaEeaVt_QtpYgWvg" name="Lichen Client" coveredBy="_BReUcHkeEeaVt_QtpYgWvg _XMjrsHkeEeaVt_QtpYgWvg _XMk50HkeEeaVt_QtpYgWvg _XMkSwHkeEeaVt_QtpYgWvg"/>
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_fnOHsHkaEeaVt_QtpYgWvg" name="Lichen Web App" coveredBy="_BRe7gHkeEeaVt_QtpYgWvg _d1aPAHkeEeaVt_QtpYgWvg _d1bdIHkeEeaVt_QtpYgWvg _d1a2EHkeEeaVt_QtpYgWvg"/>
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_DcPi4HkeEeaVt_QtpYgWvg" name="registry" represents="_aTfHwHkbEeaVt_QtpYgWvg"/>
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_x9-ukKa3EeafROfZJd45vA" name="" represents="_x-BK0Ka3EeafROfZJd45vA"/>
-      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XMjrsHkeEeaVt_QtpYgWvg" name="BehaviorExecSpecStart" covered="_cQVrcHkaEeaVt_QtpYgWvg" execution="_XMkSwHkeEeaVt_QtpYgWvg"/>
-      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XMkSwHkeEeaVt_QtpYgWvg" name="BehaviorExecSpec" covered="_cQVrcHkaEeaVt_QtpYgWvg" finish="_XMk50HkeEeaVt_QtpYgWvg" start="_XMjrsHkeEeaVt_QtpYgWvg"/>
-      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d1aPAHkeEeaVt_QtpYgWvg" name="BehaviorExecSpec0Start" covered="_fnOHsHkaEeaVt_QtpYgWvg" execution="_d1a2EHkeEeaVt_QtpYgWvg"/>
-      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_d1a2EHkeEeaVt_QtpYgWvg" name="BehaviorExecSpec0" covered="_fnOHsHkaEeaVt_QtpYgWvg" finish="_d1bdIHkeEeaVt_QtpYgWvg" start="_d1aPAHkeEeaVt_QtpYgWvg"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BReUcHkeEeaVt_QtpYgWvg" name="users_invoices_MessageSend" covered="_cQVrcHkaEeaVt_QtpYgWvg" message="_BRaDAHkeEeaVt_QtpYgWvg"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BRe7gHkeEeaVt_QtpYgWvg" name="users_invoices_MessageRecv" covered="_fnOHsHkaEeaVt_QtpYgWvg" message="_BRaDAHkeEeaVt_QtpYgWvg"/>
-      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d1bdIHkeEeaVt_QtpYgWvg" name="BehaviorExecSpec0Finish" covered="_fnOHsHkaEeaVt_QtpYgWvg" execution="_d1a2EHkeEeaVt_QtpYgWvg"/>
-      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XMk50HkeEeaVt_QtpYgWvg" name="BehaviorExecSpecFinish" covered="_cQVrcHkaEeaVt_QtpYgWvg" execution="_XMkSwHkeEeaVt_QtpYgWvg"/>
-      <message xmi:type="uml:Message" xmi:id="_BRaDAHkeEeaVt_QtpYgWvg" name="users_invoices_Message" receiveEvent="_BRe7gHkeEeaVt_QtpYgWvg" sendEvent="_BReUcHkeEeaVt_QtpYgWvg" signature="_ecazYHkYEeaVt_QtpYgWvg"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_mAIxkHkaEeaVt_QtpYgWvg" name="XA Components">
       <packagedElement xmi:type="uml:Component" xmi:id="_gEJCUHkcEeaVt_QtpYgWvg" name="Lichen-Xalgorithms System">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_7H8m4HkcEeaVt_QtpYgWvg" name="xaRegistry" type="__XVqYHkaEeaVt_QtpYgWvg"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_JbqkIHkdEeaVt_QtpYgWvg" name="xaRepository" type="_DsH5UHkbEeaVt_QtpYgWvg"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_cLs2UKT8EeacsMdVOoC5Hw" name="lichen" type="_Z_VFYKT8EeacsMdVOoC5Hw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_1Eso0KT_EeacsMdVOoC5Hw" name="lichenUI" type="_pO8P4HkaEeaVt_QtpYgWvg"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_QSa-kLitEeawKNxSAvtp1Q" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_QSa-kLitEeawKNxSAvtp1Q" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZUXUcLsDEeaVwomWCWTCZQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZUZJoLsDEeaVwomWCWTCZQ" value="*"/>
+        </ownedAttribute>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_9YqVAKT9EeacsMdVOoC5Hw" name="register_rules">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_9YqVAaT9EeacsMdVOoC5Hw" partWithPort="_JbqkIHkdEeaVt_QtpYgWvg" role="_1G1owKT9EeacsMdVOoC5Hw"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_9YqVAqT9EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_aTfHwHkbEeaVt_QtpYgWvg"/>
@@ -171,7 +158,7 @@
           <end xmi:type="uml:ConnectorEnd" xmi:id="__bUwUqT9EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_XZu28HkcEeaVt_QtpYgWvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_AH8lwKT-EeacsMdVOoC5Hw" name="fetch_rules">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_AH9M0KT-EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_XZu28HkcEeaVt_QtpYgWvg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_AH9M0KT-EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_tXLigLsDEeaVwomWCWTCZQ"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_AH9M0aT-EeacsMdVOoC5Hw" partWithPort="_JbqkIHkdEeaVt_QtpYgWvg" role="_F19eMHkcEeaVt_QtpYgWvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_UB79QLitEeawKNxSAvtp1Q">
@@ -183,9 +170,12 @@
         <packagedElement xmi:type="uml:Component" xmi:id="_Z_VFYKT8EeacsMdVOoC5Hw" name="Lichen">
           <ownedAttribute xmi:type="uml:Port" xmi:id="_5fsU0KT8EeacsMdVOoC5Hw" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite" isConjugated="true">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4OdYsKa4EeafROfZJd45vA"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4OfN4Ka4EeafROfZJd45vA" value="*"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4OfN4Ka4EeafROfZJd45vA" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_NNWLMKT9EeacsMdVOoC5Hw" name="rules" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_NNWLMKT9EeacsMdVOoC5Hw" name="rules" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cPMt4LsDEeaVwomWCWTCZQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cPPxMLsDEeaVwomWCWTCZQ" value="1"/>
+          </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_6SoiwKT-EeacsMdVOoC5Hw" name="rulesWorker" type="_0tZYkKT-EeacsMdVOoC5Hw"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_1214oKeKEeaoOZZbhtj7FQ" name="lichenApp" type="_pO8P4HkaEeaVt_QtpYgWvg"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_K9FSkKeLEeaoOZZbhtj7FQ" name="uBLWorker" type="_JixQsKeLEeaoOZZbhtj7FQ"/>
@@ -230,12 +220,13 @@
         <packagedElement xmi:type="uml:Component" xmi:id="__XVqYHkaEeaVt_QtpYgWvg" name="XARegistry">
           <ownedAttribute xmi:type="uml:Port" xmi:id="_aTfHwHkbEeaVt_QtpYgWvg" name="registry" type="_vnGr0HkaEeaVt_QtpYgWvg" aggregation="composite">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_64V6EHkbEeaVt_QtpYgWvg"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_64XIMHkbEeaVt_QtpYgWvg" value="*"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_64XIMHkbEeaVt_QtpYgWvg" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_XZu28HkcEeaVt_QtpYgWvg" name="rules" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dccAQHkcEeaVt_QtpYgWvg" value="1"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_XZu28HkcEeaVt_QtpYgWvg" name="rulesOut" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dccAQHkcEeaVt_QtpYgWvg"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dcdOYHkcEeaVt_QtpYgWvg" value="*"/>
           </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_tXLigLsDEeaVwomWCWTCZQ" name="rulesIn" visibility="public" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_5BK0wLffEeaGjMXS7szKPw" name="Repository">
@@ -244,7 +235,10 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bMcTkHkcEeaVt_QtpYgWvg"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bMc6oHkcEeaVt_QtpYgWvg" value="*"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_1G1owKT9EeacsMdVOoC5Hw" name="register" type="_vnGr0HkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_1G1owKT9EeacsMdVOoC5Hw" name="register" type="_vnGr0HkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Qnfq8LsDEeaVwomWCWTCZQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QniHMLsDEeaVwomWCWTCZQ" value="*"/>
+          </ownedAttribute>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_C_NyQLfgEeaGjMXS7szKPw" name="ECommerceApp">

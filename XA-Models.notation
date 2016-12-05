@@ -433,7 +433,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SkgegrjEEeagUcy4ezT-AQ"/>
       </children>
       <element xmi:type="uml:Interaction" href="XA-Models.uml#_Pm6sALjEEeagUcy4ezT-AQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Siu85bjEEeagUcy4ezT-AQ" width="971"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Siu85bjEEeagUcy4ezT-AQ" x="-53" width="971"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_Siu85rjEEeagUcy4ezT-AQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Siu857jEEeagUcy4ezT-AQ"/>
