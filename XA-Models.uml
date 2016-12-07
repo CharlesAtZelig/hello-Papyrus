@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WXIGUKbCEeafROfZJd45vA" name="XA-Models">
   <packagedElement xmi:type="uml:Package" xmi:id="_Nk0zULgSEearqqjaoI8idQ" name="Use Cases">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_5jBgQLyjEea1DaeZiJDLug">
+      <body>This package contains the use cases for the system. Each use case has its own package with its definiton and diagrams.
+Actors are defined in their own package, shared by the use case pacakges.
+</body>
+    </ownedComment>
     <packagedElement xmi:type="uml:Package" xmi:id="_R6XQMLgSEearqqjaoI8idQ" name="Actors">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_BP0M0LykEea1DaeZiJDLug">
+        <body>Actors can be either actual users or other systems that interact as part of use cases.</body>
+      </ownedComment>
       <packagedElement xmi:type="uml:Actor" xmi:id="_WVnTgLgSEearqqjaoI8idQ" name="End User">
         <ownedComment xmi:type="uml:Comment" xmi:id="_3C4wELgUEearqqjaoI8idQ" annotatedElement="_WVnTgLgSEearqqjaoI8idQ">
           <body>An End user is any user that interacts with a system that uses Lichen services.</body>
