@@ -308,5 +308,257 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_LRQZgLinEeawKNxSAvtp1Q" name="UBL"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_D19GoLy6Eeat5KjdXSdzvw" name="Use Cases">
+      <packagedElement xmi:type="uml:Package" xmi:id="_D19Goby6Eeat5KjdXSdzvw" name="Actors">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_D19Gory6Eeat5KjdXSdzvw">
+          <body>Actors can be either actual users or other systems that interact as part of use cases.</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_D19Go7y6Eeat5KjdXSdzvw" name="End User">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19GpLy6Eeat5KjdXSdzvw" annotatedElement="_D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw">
+            <body>An End user is any user that interacts with a system that uses Lichen services.</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_D19Gpby6Eeat5KjdXSdzvw" name="e-Commerce Application">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Gpry6Eeat5KjdXSdzvw" annotatedElement="_D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw">
+            <body>An e-commerce applications allows a transaction to take place.
+the e-commerce applicaiton is the link between the end user and various other entities (e.g., payer, payee, tax agent, loyalty agent, etc.).</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_D19Gp7y6Eeat5KjdXSdzvw" name="Lichen">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19GqLy6Eeat5KjdXSdzvw" annotatedElement="_D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw">
+            <body>Lichen is a web application that accepts and runs rules over UBL documents .</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_D19Gqby6Eeat5KjdXSdzvw" name="Registry">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Gqry6Eeat5KjdXSdzvw" annotatedElement="_D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw">
+            <body>The registry is Xalgorithms's federated registry of rules.</body>
+          </ownedComment>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_D19Gq7y6Eeat5KjdXSdzvw" name="Use Case - One-Pass Tax">
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_D19GrLy6Eeat5KjdXSdzvw" name="One-Pass Tax UC">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Grby6Eeat5KjdXSdzvw" annotatedElement="_D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw">
+            <body>Xalgorithms Use Case - One-Pass Tax - Transaction Taxes/Credits
+.
+------------
+Background:
+.
+Katla, A musician from Reykjavík (Iceland), travels to perform at the Montreal (Canada) Jazz Festival. On arrival she finds her almost-new guitar damaged in transit. Full reimbursement assured, her more immediate problem is to keep her concert schedule two days later. She contacts the manufacturer, Awesome Guitars (Nashville, TN, USA), to have a new guitar sent by courier to Montreal. The vendor’s e-commerce site, enhanced with Lichen Xalgorithms, recognizes her identity, the product code and jurisdictions, and pulls in the relevant tax and duty rules. The correct amounts are paid directly to the Icelandic revenue agency, and the shipping manifest validates that this courier package is pre-cleared for Canadian customs. She receives her replacement guitar in time for the concert. Furthermore, she is free from the hassle of claiming back Canadian tax at the airport upon departure, or paying Icelandic sales tax upon arrival back in Reykjavík. The required taxes and duties were dealt with all in one pass.
+-------------
+Preconditions
+* User's guitar was damaged in transit
+.
+----------
+Use Case
+* Katla logs on to guitar manufacturer's e-commerce site
+* Katla selects a new guitar and arange for a delivery to Montreal
+* The manufacturer's e-commerce site, enhanced with Lichen, recognizes Katla's identity, the product code, and the various jurisdictions involved, and displays the relevant taxes and duties.
+- use &quot;Lichen&quot; use case, TBD
+* Katla reviews all this information and buys the guitar.
+.
+---------------
+PostConditions
+.
+* Guitar delivery is accelerated as all fees (e.g. shipping, customs, etc.) are pre-paid and Katla gets the guitar in time to perform at the concert.
+* Because the system also knew that Katla is a resident of Iceland, all duties to bring the new guitar into Iceland have been paid, making Katla's return Iceland worry-free.
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_D19Grry6Eeat5KjdXSdzvw" memberEnd="_D19Gsby6Eeat5KjdXSdzvw _D19Gsry6Eeat5KjdXSdzvw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D19Gr7y6Eeat5KjdXSdzvw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D19GsLy6Eeat5KjdXSdzvw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_D19Gsby6Eeat5KjdXSdzvw" name="one-pass tax" type="_D19GrLy6Eeat5KjdXSdzvw" association="_D19Grry6Eeat5KjdXSdzvw"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_D19Gsry6Eeat5KjdXSdzvw" name="end user" type="_D19Go7y6Eeat5KjdXSdzvw" association="_D19Grry6Eeat5KjdXSdzvw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interaction" xmi:id="_D19Gs7y6Eeat5KjdXSdzvw" name="One-Pass Tax - interaction">
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19GtLy6Eeat5KjdXSdzvw" name="Katla" coveredBy="_D19Gv7y6Eeat5KjdXSdzvw _D19Gwby6Eeat5KjdXSdzvw _D19Guby6Eeat5KjdXSdzvw _D19Gury6Eeat5KjdXSdzvw _D19G1by6Eeat5KjdXSdzvw _D19G47y6Eeat5KjdXSdzvw _D19G5Ly6Eeat5KjdXSdzvw _D19Gu7y6Eeat5KjdXSdzvw _D19Gvry6Eeat5KjdXSdzvw _D19G2ry6Eeat5KjdXSdzvw _D19Gx7y6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19Gtby6Eeat5KjdXSdzvw" name="Awesome Guitars eCommerce" coveredBy="_D19GwLy6Eeat5KjdXSdzvw _D19Gwry6Eeat5KjdXSdzvw _D19GxLy6Eeat5KjdXSdzvw _D19Gz7y6Eeat5KjdXSdzvw _D19G1ry6Eeat5KjdXSdzvw _D19G1Ly6Eeat5KjdXSdzvw _D19G2Ly6Eeat5KjdXSdzvw _D19G4Ly6Eeat5KjdXSdzvw _D19G3by6Eeat5KjdXSdzvw _D19G4ry6Eeat5KjdXSdzvw _D19GvLy6Eeat5KjdXSdzvw _D19Gvby6Eeat5KjdXSdzvw _D19Gyby6Eeat5KjdXSdzvw _D19G3ry6Eeat5KjdXSdzvw _D19G17y6Eeat5KjdXSdzvw _D19G27y6Eeat5KjdXSdzvw _D19GyLy6Eeat5KjdXSdzvw _D19Gxry6Eeat5KjdXSdzvw _D19Gxby6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19Gtry6Eeat5KjdXSdzvw" name="Lichen" coveredBy="_D19Gw7y6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19Gt7y6Eeat5KjdXSdzvw" name="Transformation Records Storage" coveredBy="_D19G0ry6Eeat5KjdXSdzvw _D19GzLy6Eeat5KjdXSdzvw _D19G0Ly6Eeat5KjdXSdzvw _D19Gzry6Eeat5KjdXSdzvw _D19G37y6Eeat5KjdXSdzvw _D19G0by6Eeat5KjdXSdzvw _D19Gzby6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19GuLy6Eeat5KjdXSdzvw" name="Payer" coveredBy="_D19G2by6Eeat5KjdXSdzvw _D19G4by6Eeat5KjdXSdzvw _D19G3Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19Guby6Eeat5KjdXSdzvw" name="BehaviorExecSpec6Start" covered="_D19GtLy6Eeat5KjdXSdzvw" execution="_D19Gury6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19Gury6Eeat5KjdXSdzvw" name="Buy guitar" covered="_D19GtLy6Eeat5KjdXSdzvw" finish="_D19G5Ly6Eeat5KjdXSdzvw" start="_D19Guby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gu7y6Eeat5KjdXSdzvw" name="MessageSend12" covered="_D19GtLy6Eeat5KjdXSdzvw" message="_D19G7Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19GvLy6Eeat5KjdXSdzvw" name="MessageRecv11" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G7Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gvby6Eeat5KjdXSdzvw" name="MessageSend13" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G7by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gvry6Eeat5KjdXSdzvw" name="MessageRecv12" covered="_D19GtLy6Eeat5KjdXSdzvw" message="_D19G7by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gv7y6Eeat5KjdXSdzvw" name="MessageSend1" covered="_D19GtLy6Eeat5KjdXSdzvw" message="_D19G5by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19GwLy6Eeat5KjdXSdzvw" name="MessageRecv1" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G5by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gwby6Eeat5KjdXSdzvw" name="MessageSend2" covered="_D19GtLy6Eeat5KjdXSdzvw" message="_D19G5ry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gwry6Eeat5KjdXSdzvw" name="MessageRecv2" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G5ry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:InteractionUse" xmi:id="_D19Gw7y6Eeat5KjdXSdzvw" name="InteractionUse" covered="_D19Gtry6Eeat5KjdXSdzvw" refersTo="_D19G-Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19GxLy6Eeat5KjdXSdzvw" name="BehaviorExecSpec" covered="_D19Gtby6Eeat5KjdXSdzvw" finish="_D19G1ry6Eeat5KjdXSdzvw" start="_D19Gxby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19Gxby6Eeat5KjdXSdzvw" name="BehaviorExecSpecStart" covered="_D19Gtby6Eeat5KjdXSdzvw" execution="_D19GxLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19Gxry6Eeat5KjdXSdzvw" name="BehaviorExecSpecStart" covered="_D19Gtby6Eeat5KjdXSdzvw" execution="_D19GxLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gx7y6Eeat5KjdXSdzvw" name="MessageSend16" covered="_D19GtLy6Eeat5KjdXSdzvw" message="_D19G8by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19GyLy6Eeat5KjdXSdzvw" name="MessageRecv15" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G8by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gyby6Eeat5KjdXSdzvw" name="MessageSend14" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G7ry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19Gyry6Eeat5KjdXSdzvw" name="BehaviorExecSpec5Start" execution="_D19Gy7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19Gy7y6Eeat5KjdXSdzvw" name="PullResults" finish="_D19G07y6Eeat5KjdXSdzvw" start="_D19Gyry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19GzLy6Eeat5KjdXSdzvw" name="BehaviorExecSpec3" covered="_D19Gt7y6Eeat5KjdXSdzvw" finish="_D19G0ry6Eeat5KjdXSdzvw" start="_D19Gzby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gzby6Eeat5KjdXSdzvw" name="MessageRecv14" covered="_D19Gt7y6Eeat5KjdXSdzvw" message="_D19G8Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gzry6Eeat5KjdXSdzvw" name="MessageSend8" covered="_D19Gt7y6Eeat5KjdXSdzvw" message="_D19G57y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19Gz7y6Eeat5KjdXSdzvw" name="MessageRecv8" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G57y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G0Ly6Eeat5KjdXSdzvw" name="BehaviorExecSpec3Start" covered="_D19Gt7y6Eeat5KjdXSdzvw" execution="_D19GzLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G0by6Eeat5KjdXSdzvw" name="BehaviorExecSpec3Start" covered="_D19Gt7y6Eeat5KjdXSdzvw" execution="_D19GzLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G0ry6Eeat5KjdXSdzvw" name="BehaviorExecSpec3Finish" covered="_D19Gt7y6Eeat5KjdXSdzvw" execution="_D19GzLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G07y6Eeat5KjdXSdzvw" name="BehaviorExecSpec5Finish" execution="_D19Gy7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G1Ly6Eeat5KjdXSdzvw" name="MessageSend9" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G6Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G1by6Eeat5KjdXSdzvw" name="MessageRecv9" covered="_D19GtLy6Eeat5KjdXSdzvw" message="_D19G6Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G1ry6Eeat5KjdXSdzvw" name="BehaviorExecSpecFinish" covered="_D19Gtby6Eeat5KjdXSdzvw" execution="_D19GxLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G17y6Eeat5KjdXSdzvw" name="BehaviorExecSpec6Start" covered="_D19Gtby6Eeat5KjdXSdzvw" execution="_D19G2Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19G2Ly6Eeat5KjdXSdzvw" name="BehaviorExecSpec6" covered="_D19Gtby6Eeat5KjdXSdzvw" finish="_D19G4ry6Eeat5KjdXSdzvw" start="_D19G17y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19G2by6Eeat5KjdXSdzvw" name="BehaviorExecSpec7" covered="_D19GuLy6Eeat5KjdXSdzvw" finish="_D19G3Ly6Eeat5KjdXSdzvw" start="_D19G4by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G2ry6Eeat5KjdXSdzvw" name="MessageSend15" covered="_D19GtLy6Eeat5KjdXSdzvw" message="_D19G77y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G27y6Eeat5KjdXSdzvw" name="MessageRecv13" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G77y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G3Ly6Eeat5KjdXSdzvw" name="MessageSend" covered="_D19GuLy6Eeat5KjdXSdzvw" message="_D19G6ry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G3by6Eeat5KjdXSdzvw" name="MessageRecv" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G6ry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G3ry6Eeat5KjdXSdzvw" name="BehaviorExecSpec6Start" covered="_D19Gtby6Eeat5KjdXSdzvw" execution="_D19G2Ly6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G37y6Eeat5KjdXSdzvw" name="BehaviorExecSpec2Start" covered="_D19Gt7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G4Ly6Eeat5KjdXSdzvw" name="MessageSend11" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G6by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G4by6Eeat5KjdXSdzvw" name="MessageRecv" covered="_D19GuLy6Eeat5KjdXSdzvw" message="_D19G6by6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G4ry6Eeat5KjdXSdzvw" name="MessageSend" covered="_D19Gtby6Eeat5KjdXSdzvw" message="_D19G67y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19G47y6Eeat5KjdXSdzvw" name="MessageRecv" covered="_D19GtLy6Eeat5KjdXSdzvw" message="_D19G67y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G5Ly6Eeat5KjdXSdzvw" name="Buy guitarFinish" covered="_D19GtLy6Eeat5KjdXSdzvw" execution="_D19Gury6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G5by6Eeat5KjdXSdzvw" name="Browse" messageSort="asynchCall" receiveEvent="_D19GwLy6Eeat5KjdXSdzvw" sendEvent="_D19Gv7y6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G5ry6Eeat5KjdXSdzvw" name="Pick guitar" messageSort="asynchCall" receiveEvent="_D19Gwry6Eeat5KjdXSdzvw" sendEvent="_D19Gwby6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G57y6Eeat5KjdXSdzvw" name="Results data and references" messageSort="reply" receiveEvent="_D19Gz7y6Eeat5KjdXSdzvw" sendEvent="_D19Gzry6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G6Ly6Eeat5KjdXSdzvw" name="Show invoice with taxes, etc." messageSort="reply" receiveEvent="_D19G1by6Eeat5KjdXSdzvw" sendEvent="_D19G1Ly6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G6by6Eeat5KjdXSdzvw" name="InformPayerOfDisbursements" messageSort="asynchCall" receiveEvent="_D19G4by6Eeat5KjdXSdzvw" sendEvent="_D19G4Ly6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G6ry6Eeat5KjdXSdzvw" name="Payments complete" messageSort="reply" receiveEvent="_D19G3by6Eeat5KjdXSdzvw" sendEvent="_D19G3Ly6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G67y6Eeat5KjdXSdzvw" name="Tansaction complete" messageSort="reply" receiveEvent="_D19G47y6Eeat5KjdXSdzvw" sendEvent="_D19G4ry6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G7Ly6Eeat5KjdXSdzvw" name="Log on" messageSort="asynchCall" receiveEvent="_D19GvLy6Eeat5KjdXSdzvw" sendEvent="_D19Gu7y6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G7by6Eeat5KjdXSdzvw" name="Show wecome message" messageSort="asynchCall" receiveEvent="_D19Gvry6Eeat5KjdXSdzvw" sendEvent="_D19Gvby6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G7ry6Eeat5KjdXSdzvw" name="Lichenize" messageSort="asynchCall" sendEvent="_D19Gyby6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G77y6Eeat5KjdXSdzvw" name="Confirm purchase" messageSort="asynchCall" receiveEvent="_D19G27y6Eeat5KjdXSdzvw" sendEvent="_D19G2ry6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G8Ly6Eeat5KjdXSdzvw" name="PullResultsDataAndReferences" messageSort="asynchCall" receiveEvent="_D19Gzby6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19G8by6Eeat5KjdXSdzvw" name="PurchaseGuitar" messageSort="asynchCall" receiveEvent="_D19GyLy6Eeat5KjdXSdzvw" sendEvent="_D19Gx7y6Eeat5KjdXSdzvw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_D19G8ry6Eeat5KjdXSdzvw" client="_D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw" supplier="_D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_D19G87y6Eeat5KjdXSdzvw" name="Use Case - Use Lichen">
+        <ownedRule xmi:type="uml:InteractionConstraint" xmi:id="_D19G9Ly6Eeat5KjdXSdzvw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_D19G9by6Eeat5KjdXSdzvw" value="undefined"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_D19G9ry6Eeat5KjdXSdzvw" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_D19G97y6Eeat5KjdXSdzvw"/>
+        </ownedRule>
+        <packagedElement xmi:type="uml:Interaction" xmi:id="_D19G-Ly6Eeat5KjdXSdzvw" name="Use Lichen - Interaction">
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19G-by6Eeat5KjdXSdzvw" name="Awesome Guitars eCommerce" coveredBy="_D19G_7y6Eeat5KjdXSdzvw _D19HH7y6Eeat5KjdXSdzvw _D19HALy6Eeat5KjdXSdzvw _D19HAby6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19G-ry6Eeat5KjdXSdzvw" name="Lichen" coveredBy="_D19HILy6Eeat5KjdXSdzvw _D19HAry6Eeat5KjdXSdzvw _D19HA7y6Eeat5KjdXSdzvw _D19HBry6Eeat5KjdXSdzvw _D19HCry6Eeat5KjdXSdzvw _D19HELy6Eeat5KjdXSdzvw _D19HGry6Eeat5KjdXSdzvw _D19HHby6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19G-7y6Eeat5KjdXSdzvw" name="Transformation Records" coveredBy="_D19HHry6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19G_Ly6Eeat5KjdXSdzvw" name="Rules Cache" coveredBy="_D19HDLy6Eeat5KjdXSdzvw _D19HB7y6Eeat5KjdXSdzvw _D19HCLy6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19G_by6Eeat5KjdXSdzvw" name="Registry" coveredBy="_D19HG7y6Eeat5KjdXSdzvw _D19HGby6Eeat5KjdXSdzvw _D19HEby6Eeat5KjdXSdzvw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_D19G_ry6Eeat5KjdXSdzvw" name="Repository" coveredBy="_D19HF7y6Eeat5KjdXSdzvw _D19HFby6Eeat5KjdXSdzvw _D19HFLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19G_7y6Eeat5KjdXSdzvw" name="BehaviorExecSpecStart" covered="_D19G-by6Eeat5KjdXSdzvw" execution="_D19HALy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19HALy6Eeat5KjdXSdzvw" name="BehaviorExecSpec" covered="_D19G-by6Eeat5KjdXSdzvw" finish="_D19HH7y6Eeat5KjdXSdzvw" start="_D19G_7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HAby6Eeat5KjdXSdzvw" name="MessageSend" covered="_D19G-by6Eeat5KjdXSdzvw" message="_D19HIby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19HAry6Eeat5KjdXSdzvw" name="BehaviorExecSpec0" covered="_D19G-ry6Eeat5KjdXSdzvw" finish="_D19HILy6Eeat5KjdXSdzvw" start="_D19HA7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HA7y6Eeat5KjdXSdzvw" name="MessageRecv" covered="_D19G-ry6Eeat5KjdXSdzvw" message="_D19HIby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HBLy6Eeat5KjdXSdzvw" name="BehaviorExecSpec2Start" execution="_D19HBby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19HBby6Eeat5KjdXSdzvw" name="BehaviorExecSpec2" finish="_D19HDby6Eeat5KjdXSdzvw" start="_D19HBLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HBry6Eeat5KjdXSdzvw" name="MessageSend1" covered="_D19G-ry6Eeat5KjdXSdzvw" message="_D19HI7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19HB7y6Eeat5KjdXSdzvw" name="BehaviorExecSpec" covered="_D19G_Ly6Eeat5KjdXSdzvw" finish="_D19HDLy6Eeat5KjdXSdzvw" start="_D19HCLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HCLy6Eeat5KjdXSdzvw" name="MessageRecv0" covered="_D19G_Ly6Eeat5KjdXSdzvw" message="_D19HI7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HCby6Eeat5KjdXSdzvw" name="MessageSend2" message="_D19HJLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HCry6Eeat5KjdXSdzvw" name="MessageRecv1" covered="_D19G-ry6Eeat5KjdXSdzvw" message="_D19HJLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HC7y6Eeat5KjdXSdzvw" name="BehaviorExecSpecStart" execution="_D19HB7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HDLy6Eeat5KjdXSdzvw" name="BehaviorExecSpecFinish" covered="_D19G_Ly6Eeat5KjdXSdzvw" execution="_D19HB7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HDby6Eeat5KjdXSdzvw" name="BehaviorExecSpec2Finish" execution="_D19HBby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HDry6Eeat5KjdXSdzvw" name="BehaviorExecSpec3Start" execution="_D19HD7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19HD7y6Eeat5KjdXSdzvw" name="BehaviorExecSpec3" finish="_D19HHLy6Eeat5KjdXSdzvw" start="_D19HDry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HELy6Eeat5KjdXSdzvw" name="MessageSend0" covered="_D19G-ry6Eeat5KjdXSdzvw" message="_D19HIry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19HEby6Eeat5KjdXSdzvw" name="BehaviorExecSpec0" covered="_D19G_by6Eeat5KjdXSdzvw" finish="_D19HG7y6Eeat5KjdXSdzvw" start="_D19HGby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HEry6Eeat5KjdXSdzvw" name="MessageRecv0" message="_D19HIry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HE7y6Eeat5KjdXSdzvw" name="MessageSend3" message="_D19HJry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_D19HFLy6Eeat5KjdXSdzvw" name="BehaviorExecSpec1" covered="_D19G_ry6Eeat5KjdXSdzvw" finish="_D19HF7y6Eeat5KjdXSdzvw" start="_D19HFby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HFby6Eeat5KjdXSdzvw" name="MessageRecv3" covered="_D19G_ry6Eeat5KjdXSdzvw" message="_D19HJry6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HFry6Eeat5KjdXSdzvw" name="MessageSend4" message="_D19HJ7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HF7y6Eeat5KjdXSdzvw" name="BehaviorExecSpec1Finish" covered="_D19G_ry6Eeat5KjdXSdzvw" execution="_D19HFLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HGLy6Eeat5KjdXSdzvw" name="MessageRecv4" message="_D19HJ7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HGby6Eeat5KjdXSdzvw" name="MessageSend0" covered="_D19G_by6Eeat5KjdXSdzvw" message="_D19HJby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HGry6Eeat5KjdXSdzvw" name="MessageRecv2" covered="_D19G-ry6Eeat5KjdXSdzvw" message="_D19HJby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HG7y6Eeat5KjdXSdzvw" name="BehaviorExecSpec0Finish" covered="_D19G_by6Eeat5KjdXSdzvw" execution="_D19HEby6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HHLy6Eeat5KjdXSdzvw" name="BehaviorExecSpec3Finish" execution="_D19HD7y6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HHby6Eeat5KjdXSdzvw" name="MessageSend5" covered="_D19G-ry6Eeat5KjdXSdzvw" message="_D19HKLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_D19HHry6Eeat5KjdXSdzvw" name="MessageRecv5" covered="_D19G-7y6Eeat5KjdXSdzvw" message="_D19HKLy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HH7y6Eeat5KjdXSdzvw" name="BehaviorExecSpecFinish" covered="_D19G-by6Eeat5KjdXSdzvw" execution="_D19HALy6Eeat5KjdXSdzvw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_D19HILy6Eeat5KjdXSdzvw" name="BehaviorExecSpec0Finish" covered="_D19G-ry6Eeat5KjdXSdzvw" execution="_D19HAry6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19HIby6Eeat5KjdXSdzvw" name="&quot;Lichenize&quot; transaction" messageSort="asynchCall" receiveEvent="_D19HA7y6Eeat5KjdXSdzvw" sendEvent="_D19HAby6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19HIry6Eeat5KjdXSdzvw" name="Get remaining rules" messageSort="asynchCall" receiveEvent="_D19HEry6Eeat5KjdXSdzvw" sendEvent="_D19HELy6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19HI7y6Eeat5KjdXSdzvw" name="Get rules" messageSort="asynchCall" receiveEvent="_D19HCLy6Eeat5KjdXSdzvw" sendEvent="_D19HBry6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19HJLy6Eeat5KjdXSdzvw" name="Return rules package" messageSort="asynchCall" receiveEvent="_D19HCry6Eeat5KjdXSdzvw" sendEvent="_D19HCby6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19HJby6Eeat5KjdXSdzvw" name="Return rules package" messageSort="asynchCall" receiveEvent="_D19HGry6Eeat5KjdXSdzvw" sendEvent="_D19HGby6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19HJry6Eeat5KjdXSdzvw" name="Fetch rules" messageSort="asynchCall" receiveEvent="_D19HFby6Eeat5KjdXSdzvw" sendEvent="_D19HE7y6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19HJ7y6Eeat5KjdXSdzvw" name="Return rules" messageSort="asynchCall" receiveEvent="_D19HGLy6Eeat5KjdXSdzvw" sendEvent="_D19HFry6Eeat5KjdXSdzvw"/>
+          <message xmi:type="uml:Message" xmi:id="_D19HKLy6Eeat5KjdXSdzvw" name="Push result data and references" messageSort="asynchCall" receiveEvent="_D19HHry6Eeat5KjdXSdzvw" sendEvent="_D19HHby6Eeat5KjdXSdzvw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_D19HKby6Eeat5KjdXSdzvw" name="Use Lichen">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19HKry6Eeat5KjdXSdzvw" annotatedElement="_D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw">
+            <body>Xalgorithms Use Case - Use Lichen
+.
+------------
+Background:
+.
+In order to process a transaction, the App or eCommerce application uses Lichen to augment a customer's request.
+-------------
+Preconditions
+* A transaction exists for a customer
+* The eCommerce application has access to Lichen
+.
+----------
+Use Case
+* The eCommerce application encodes the transaction using UBL and sends it to Lichen
+* Lichen invokes its Rules Worker to get the required rules
+* The Lichen Rules Worker first checks its cache of pre-selected rules for applicable rules.
+* The Lichen Rules Worker asks the Xalgorithms Registry for the remaining required rules
+* The  Xalgorithms Registry retrieves the required rules, either from its own repository cache or from other repositories
+* Rules received by the Xalgorithms Registry and not cached are cached locally
+* The Xalgorithms Registry sends the set of rules back to the Lichen Rules Worker
+* The Lichen Rules Worker appends the rules received to the transformation record for the transaction
+.
+---------------
+PostConditions
+.
+* Transaction transformation record is now available to be pull by The eCommerce application</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_D19HK7y6Eeat5KjdXSdzvw" memberEnd="_D19HLry6Eeat5KjdXSdzvw _D19HL7y6Eeat5KjdXSdzvw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D19HLLy6Eeat5KjdXSdzvw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D19HLby6Eeat5KjdXSdzvw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_D19HLry6Eeat5KjdXSdzvw" name="use lichen" type="_D19HKby6Eeat5KjdXSdzvw" association="_D19HK7y6Eeat5KjdXSdzvw"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_D19HL7y6Eeat5KjdXSdzvw" name="e-commerce application" type="_D19Gpby6Eeat5KjdXSdzvw" association="_D19HK7y6Eeat5KjdXSdzvw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_D19HMLy6Eeat5KjdXSdzvw" memberEnd="_D19HM7y6Eeat5KjdXSdzvw _D19HNLy6Eeat5KjdXSdzvw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D19HMby6Eeat5KjdXSdzvw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D19HMry6Eeat5KjdXSdzvw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_D19HM7y6Eeat5KjdXSdzvw" name="use lichen" type="_D19HKby6Eeat5KjdXSdzvw" association="_D19HMLy6Eeat5KjdXSdzvw"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_D19HNLy6Eeat5KjdXSdzvw" name="lichen" type="_D19Gp7y6Eeat5KjdXSdzvw" association="_D19HMLy6Eeat5KjdXSdzvw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_D19HNby6Eeat5KjdXSdzvw" memberEnd="_D19HOLy6Eeat5KjdXSdzvw _D19HOby6Eeat5KjdXSdzvw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D19HNry6Eeat5KjdXSdzvw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D19HN7y6Eeat5KjdXSdzvw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_D19HOLy6Eeat5KjdXSdzvw" name="registry" type="_D19Gqby6Eeat5KjdXSdzvw" association="_D19HNby6Eeat5KjdXSdzvw"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_D19HOby6Eeat5KjdXSdzvw" name="use lichen" type="_D19HKby6Eeat5KjdXSdzvw" association="_D19HNby6Eeat5KjdXSdzvw"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_D19HOry6Eeat5KjdXSdzvw" memberEnd="_D19HPby6Eeat5KjdXSdzvw _D19HPry6Eeat5KjdXSdzvw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D19HO7y6Eeat5KjdXSdzvw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D19HPLy6Eeat5KjdXSdzvw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_D19HPby6Eeat5KjdXSdzvw" name="use lichen" type="_D19GrLy6Eeat5KjdXSdzvw" association="_D19HOry6Eeat5KjdXSdzvw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_D19HPry6Eeat5KjdXSdzvw" name="e-commerce application" type="_D19Gpby6Eeat5KjdXSdzvw" association="_D19HOry6Eeat5KjdXSdzvw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_D19HP7y6Eeat5KjdXSdzvw" memberEnd="_D19HQry6Eeat5KjdXSdzvw _D19HQ7y6Eeat5KjdXSdzvw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D19HQLy6Eeat5KjdXSdzvw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D19HQby6Eeat5KjdXSdzvw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_D19HQry6Eeat5KjdXSdzvw" name="e-commerce application" type="_D19Gpby6Eeat5KjdXSdzvw" association="_D19HP7y6Eeat5KjdXSdzvw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_D19HQ7y6Eeat5KjdXSdzvw" name="use lichen" type="_D19HKby6Eeat5KjdXSdzvw" association="_D19HP7y6Eeat5KjdXSdzvw"/>
+      </packagedElement>
+    </packagedElement>
   </packagedElement>
 </uml:Model>
