@@ -4,340 +4,36 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_Kgsr0HkYEeaVt_QtpYgWvg" name="v1">
-    <packagedElement xmi:type="uml:Package" xmi:id="_kw5CIHkYEeaVt_QtpYgWvg" name="Definitions">
-      <packagedElement xmi:type="uml:Class" xmi:id="_qcJ70HkYEeaVt_QtpYgWvg" name="Transaction">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_xss70HkZEeaVt_QtpYgWvg" name="id">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_RdMsUKapEeaj_enj8_Mmfw" name="status"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_k72sIqajEeaj_enj8_Mmfw" name="rule" type="_i7v5wKacEeaj_enj8_Mmfw" association="_k71eAKajEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_on0AgKajEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_on2cwKajEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Z9ObYaajEeaj_enj8_Mmfw" name="invoice" type="_dxkDEHkZEeaVt_QtpYgWvg" aggregation="composite" association="_Z9NNQKajEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bmoCIKajEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bmrFcKajEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_w9q4MqajEeaj_enj8_Mmfw" name="document" type="_lAK2UKahEeaj_enj8_Mmfw" association="_w9qRIKajEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zQhroKajEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zQku8KajEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_dxkDEHkZEeaVt_QtpYgWvg" name="Invoice">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_8cEb4KaoEeaj_enj8_Mmfw" name="public_id">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_OacX4KanEeaj_enj8_Mmfw" name="revision" type="_Ldj3YKakEeaj_enj8_Mmfw" aggregation="composite" association="_OabJwKanEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Pv-AYKanEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PwBDsKanEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_W8zagaanEeaj_enj8_Mmfw" name="document" type="_lAK2UKahEeaj_enj8_Mmfw" association="_W8yzcKanEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YvWWMKanEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YvYycKanEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_7XvdwHkZEeaVt_QtpYgWvg" name="User">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_uw-bUKacEeaj_enj8_Mmfw" name="id"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_8LyPEaamEeaj_enj8_Mmfw" name="transaction" type="_qcJ70HkYEeaVt_QtpYgWvg" aggregation="composite" association="_8LxA8KamEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_954IkKamEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_956k0KamEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_ksIRQqanEeaj_enj8_Mmfw" name="registration" type="_linmoKaiEeaj_enj8_Mmfw" aggregation="composite" association="_ksHDIKanEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nZNikKanEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nZTCIKanEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_i7v5wKacEeaj_enj8_Mmfw" name="Rule">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_pJToMKacEeaj_enj8_Mmfw" name="name">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_rRy-sKacEeaj_enj8_Mmfw" name="ns">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_k73TMKajEeaj_enj8_Mmfw" name="transaction" type="_qcJ70HkYEeaVt_QtpYgWvg" association="_k71eAKajEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_btVcMKalEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_btZtoKalEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_7li5AKanEeaj_enj8_Mmfw" name="public_id"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_AYtGAKaoEeaj_enj8_Mmfw" name="version"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Bke8oKaoEeaj_enj8_Mmfw" name="content"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_lAK2UKahEeaj_enj8_Mmfw" name="Document">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_RaV3gKanEeaj_enj8_Mmfw" name="revision" type="_Ldj3YKakEeaj_enj8_Mmfw" aggregation="composite" association="_RaUpYKanEeaj_enj8_Mmfw"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_bsTkoKapEeaj_enj8_Mmfw" name="id">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_d9wC0KapEeaj_enj8_Mmfw" name="url">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_linmoKaiEeaj_enj8_Mmfw" name="Registration"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_Z9NNQKajEeaj_enj8_Mmfw" memberEnd="_Z9ObYaajEeaj_enj8_Mmfw _Z9QQkKajEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z9N0UKajEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z9ObYKajEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_Z9QQkKajEeaj_enj8_Mmfw" name="transaction" type="_qcJ70HkYEeaVt_QtpYgWvg" association="_Z9NNQKajEeaj_enj8_Mmfw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_k71eAKajEeaj_enj8_Mmfw" memberEnd="_k72sIqajEeaj_enj8_Mmfw _k73TMKajEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k72sIKajEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k72sIaajEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_w9qRIKajEeaj_enj8_Mmfw" memberEnd="_w9q4MqajEeaj_enj8_Mmfw _w9rfQKajEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w9q4MKajEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w9q4MaajEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_w9rfQKajEeaj_enj8_Mmfw" name="transaction" type="_qcJ70HkYEeaVt_QtpYgWvg" association="_w9qRIKajEeaj_enj8_Mmfw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Ldj3YKakEeaj_enj8_Mmfw" name="Revision"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_8LxA8KamEeaj_enj8_Mmfw" memberEnd="_8LyPEaamEeaj_enj8_Mmfw _8L2ggKamEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8LxoAKamEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8LyPEKamEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_8L2ggKamEeaj_enj8_Mmfw" name="user" type="_7XvdwHkZEeaVt_QtpYgWvg" association="_8LxA8KamEeaj_enj8_Mmfw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OabJwKanEeaj_enj8_Mmfw" memberEnd="_OacX4KanEeaj_enj8_Mmfw _OacX4aanEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Oabw0KanEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Oabw0aanEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_OacX4aanEeaj_enj8_Mmfw" name="invoice" type="_dxkDEHkZEeaVt_QtpYgWvg" association="_OabJwKanEeaj_enj8_Mmfw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_RaUpYKanEeaj_enj8_Mmfw" memberEnd="_RaV3gKanEeaj_enj8_Mmfw _RaV3gaanEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RaVQcKanEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RaVQcaanEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_RaV3gaanEeaj_enj8_Mmfw" name="document" type="_lAK2UKahEeaj_enj8_Mmfw" association="_RaUpYKanEeaj_enj8_Mmfw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_W8yzcKanEeaj_enj8_Mmfw" memberEnd="_W8zagaanEeaj_enj8_Mmfw _W80BkKanEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W8yzcaanEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8zagKanEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_W80BkKanEeaj_enj8_Mmfw" name="invoice" type="_dxkDEHkZEeaVt_QtpYgWvg" association="_W8yzcKanEeaj_enj8_Mmfw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_ksHDIKanEeaj_enj8_Mmfw" memberEnd="_ksIRQqanEeaj_enj8_Mmfw _ksI4UKanEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ksIRQKanEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ksIRQaanEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_ksI4UKanEeaj_enj8_Mmfw" name="user" type="_7XvdwHkZEeaVt_QtpYgWvg" association="_ksHDIKanEeaj_enj8_Mmfw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_I71ksKaoEeaj_enj8_Mmfw" name="Repository">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_LUihcqaoEeaj_enj8_Mmfw" name="rule" type="_i7v5wKacEeaj_enj8_Mmfw" aggregation="composite" association="_LUh6YKaoEeaj_enj8_Mmfw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MlhoMKaoEeaj_enj8_Mmfw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MlkEcKaoEeaj_enj8_Mmfw" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_d5JFEKaoEeaj_enj8_Mmfw" name="public_id">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_fTotIKaoEeaj_enj8_Mmfw" name="url">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_LUh6YKaoEeaj_enj8_Mmfw" memberEnd="_LUihcqaoEeaj_enj8_Mmfw _LUkWoKaoEeaj_enj8_Mmfw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LUihcKaoEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LUihcaaoEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_LUkWoKaoEeaj_enj8_Mmfw" name="repository" type="_I71ksKaoEeaj_enj8_Mmfw" association="_LUh6YKaoEeaj_enj8_Mmfw"/>
-      </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_mAIxkHkaEeaVt_QtpYgWvg" name="XA Components">
-      <packagedElement xmi:type="uml:Component" xmi:id="_gEJCUHkcEeaVt_QtpYgWvg" name="Lichen-Xalgorithms System">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_7H8m4HkcEeaVt_QtpYgWvg" name="xaRegistry" type="__XVqYHkaEeaVt_QtpYgWvg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_JbqkIHkdEeaVt_QtpYgWvg" name="xaRepository" type="_DsH5UHkbEeaVt_QtpYgWvg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_cLs2UKT8EeacsMdVOoC5Hw" name="lichen" type="_Z_VFYKT8EeacsMdVOoC5Hw"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1Eso0KT_EeacsMdVOoC5Hw" name="lichenUI" type="_pO8P4HkaEeaVt_QtpYgWvg"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_QSa-kLitEeawKNxSAvtp1Q" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZUXUcLsDEeaVwomWCWTCZQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZUZJoLsDEeaVwomWCWTCZQ" value="*"/>
-        </ownedAttribute>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_9YqVAKT9EeacsMdVOoC5Hw" name="register_rules">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_9YqVAaT9EeacsMdVOoC5Hw" partWithPort="_JbqkIHkdEeaVt_QtpYgWvg" role="_1G1owKT9EeacsMdVOoC5Hw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_9YqVAqT9EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_aTfHwHkbEeaVt_QtpYgWvg"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="__bUwUKT9EeacsMdVOoC5Hw" name="lookup_rules">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="__bUwUaT9EeacsMdVOoC5Hw" partWithPort="_cLs2UKT8EeacsMdVOoC5Hw" role="_NNWLMKT9EeacsMdVOoC5Hw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="__bUwUqT9EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_XZu28HkcEeaVt_QtpYgWvg"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_AH8lwKT-EeacsMdVOoC5Hw" name="fetch_rules">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_AH9M0KT-EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_tXLigLsDEeaVwomWCWTCZQ"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_AH9M0aT-EeacsMdVOoC5Hw" partWithPort="_JbqkIHkdEeaVt_QtpYgWvg" role="_F19eMHkcEeaVt_QtpYgWvg"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_UB79QLitEeawKNxSAvtp1Q">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_UB8kULitEeawKNxSAvtp1Q" role="_QSa-kLitEeawKNxSAvtp1Q"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_UB9LYLitEeawKNxSAvtp1Q" partWithPort="_cLs2UKT8EeacsMdVOoC5Hw" role="_5fsU0KT8EeacsMdVOoC5Hw"/>
-        </ownedConnector>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_oeMQwKT-EeacsMdVOoC5Hw" name="LichenSystem">
-        <packagedElement xmi:type="uml:Component" xmi:id="_Z_VFYKT8EeacsMdVOoC5Hw" name="Lichen">
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_5fsU0KT8EeacsMdVOoC5Hw" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite" isConjugated="true">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4OdYsKa4EeafROfZJd45vA"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4OfN4Ka4EeafROfZJd45vA" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_NNWLMKT9EeacsMdVOoC5Hw" name="rules" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cPMt4LsDEeaVwomWCWTCZQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cPPxMLsDEeaVwomWCWTCZQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_6SoiwKT-EeacsMdVOoC5Hw" name="rulesWorker" type="_0tZYkKT-EeacsMdVOoC5Hw"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_1214oKeKEeaoOZZbhtj7FQ" name="lichenApp" type="_pO8P4HkaEeaVt_QtpYgWvg"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_K9FSkKeLEeaoOZZbhtj7FQ" name="uBLWorker" type="_JixQsKeLEeaoOZZbhtj7FQ"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_DIge0LipEeawKNxSAvtp1Q" name="storage" type="_u4cw4LimEeawKNxSAvtp1Q"/>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_JKqOgLipEeawKNxSAvtp1Q" name="transaction_enters_lichen">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_JKrcoLipEeawKNxSAvtp1Q" role="_5fsU0KT8EeacsMdVOoC5Hw"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_JKrcobipEeawKNxSAvtp1Q" role="_K9FSkKeLEeaoOZZbhtj7FQ"/>
-          </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_QHHqULipEeawKNxSAvtp1Q" name="push_results &amp; references">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_QHI4cLipEeawKNxSAvtp1Q" role="_K9FSkKeLEeaoOZZbhtj7FQ"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_QHI4cbipEeawKNxSAvtp1Q" role="_DIge0LipEeawKNxSAvtp1Q"/>
-          </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_ZLkGULipEeawKNxSAvtp1Q" name="user_transaction">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_ZLpl4LipEeawKNxSAvtp1Q" role="_1214oKeKEeaoOZZbhtj7FQ"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_ZLq0ALipEeawKNxSAvtp1Q" role="_6SoiwKT-EeacsMdVOoC5Hw"/>
-          </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_vsbEILipEeawKNxSAvtp1Q" name="internal_rules_package">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_vscSQLipEeawKNxSAvtp1Q" role="_6SoiwKT-EeacsMdVOoC5Hw"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_vscSQbipEeawKNxSAvtp1Q" role="_DIge0LipEeawKNxSAvtp1Q"/>
-          </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_DtdUELirEeawKNxSAvtp1Q" name="lookup_rules_externally">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_Dtd7ILirEeawKNxSAvtp1Q" role="_6SoiwKT-EeacsMdVOoC5Hw"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_Dtd7IbirEeawKNxSAvtp1Q" role="_NNWLMKT9EeacsMdVOoC5Hw"/>
-          </ownedConnector>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Component" xmi:id="_0tZYkKT-EeacsMdVOoC5Hw" name="RulesWorker">
-          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JbPdoLioEeawKNxSAvtp1Q" client="_0tZYkKT-EeacsMdVOoC5Hw" supplier="_zc5RoHkaEeaVt_QtpYgWvg" contract="_zc5RoHkaEeaVt_QtpYgWvg"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Component" xmi:id="_pO8P4HkaEeaVt_QtpYgWvg" name="LichenApp">
-          <packagedElement xmi:type="uml:Usage" xmi:id="_CtqyYLioEeawKNxSAvtp1Q" client="_pO8P4HkaEeaVt_QtpYgWvg" supplier="_zc5RoHkaEeaVt_QtpYgWvg"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Component" xmi:id="_JixQsKeLEeaoOZZbhtj7FQ" name="UBLWorker">
-          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_SEbWcLinEeawKNxSAvtp1Q" client="_JixQsKeLEeaoOZZbhtj7FQ" supplier="_LRQZgLinEeawKNxSAvtp1Q" contract="_LRQZgLinEeawKNxSAvtp1Q"/>
-          <packagedElement xmi:type="uml:Usage" xmi:id="_hptpQLinEeawKNxSAvtp1Q" client="_JixQsKeLEeaoOZZbhtj7FQ" supplier="_MPOqMHkYEeaVt_QtpYgWvg"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Component" xmi:id="_u4cw4LimEeawKNxSAvtp1Q" name="Storage">
-          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_g-7m4LinEeawKNxSAvtp1Q" client="_u4cw4LimEeawKNxSAvtp1Q" supplier="_MPOqMHkYEeaVt_QtpYgWvg" contract="_MPOqMHkYEeaVt_QtpYgWvg"/>
-          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_sbDaALipEeawKNxSAvtp1Q" client="_u4cw4LimEeawKNxSAvtp1Q" supplier="_zc5RoHkaEeaVt_QtpYgWvg" contract="_zc5RoHkaEeaVt_QtpYgWvg"/>
-        </packagedElement>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_17uGwLffEeaGjMXS7szKPw" name="Registry">
-        <packagedElement xmi:type="uml:Component" xmi:id="__XVqYHkaEeaVt_QtpYgWvg" name="XARegistry">
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_aTfHwHkbEeaVt_QtpYgWvg" name="registry" type="_vnGr0HkaEeaVt_QtpYgWvg" aggregation="composite">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_64V6EHkbEeaVt_QtpYgWvg"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_64XIMHkbEeaVt_QtpYgWvg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_XZu28HkcEeaVt_QtpYgWvg" name="rulesOut" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dccAQHkcEeaVt_QtpYgWvg"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dcdOYHkcEeaVt_QtpYgWvg" value="*"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_tXLigLsDEeaVwomWCWTCZQ" name="rulesIn" visibility="public" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite"/>
-        </packagedElement>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_5BK0wLffEeaGjMXS7szKPw" name="Repository">
-        <packagedElement xmi:type="uml:Component" xmi:id="_DsH5UHkbEeaVt_QtpYgWvg" name="XARepository">
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_F19eMHkcEeaVt_QtpYgWvg" name="rules" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bMcTkHkcEeaVt_QtpYgWvg"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bMc6oHkcEeaVt_QtpYgWvg" value="*"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_1G1owKT9EeacsMdVOoC5Hw" name="register" type="_vnGr0HkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Qnfq8LsDEeaVwomWCWTCZQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QniHMLsDEeaVwomWCWTCZQ" value="*"/>
-          </ownedAttribute>
-        </packagedElement>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_C_NyQLfgEeaGjMXS7szKPw" name="ECommerceApp">
-        <packagedElement xmi:type="uml:Component" xmi:id="_3WK8MKT_EeacsMdVOoC5Hw" name="E-CommerceApp">
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_3WK8MaT_EeacsMdVOoC5Hw" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3WK8MqT_EeacsMdVOoC5Hw" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3WK8M6T_EeacsMdVOoC5Hw" value="1"/>
-          </ownedAttribute>
-        </packagedElement>
-      </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_HEzHkLfgEeaGjMXS7szKPw" name="APIs">
-      <packagedElement xmi:type="uml:Interface" xmi:id="_MPOqMHkYEeaVt_QtpYgWvg" name="InvoiceAPI">
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_UTxvcHkYEeaVt_QtpYgWvg" name="users_transactions">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_XWqRoHkYEeaVt_QtpYgWvg" name="user_id">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vLVAsHkYEeaVt_QtpYgWvg" name="returns" type="_qcJ70HkYEeaVt_QtpYgWvg" direction="return">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aJE5cHkZEeaVt_QtpYgWvg"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aJGuoHkZEeaVt_QtpYgWvg" value="*"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_ecazYHkYEeaVt_QtpYgWvg" name="users_invoices">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_gsVAgHkYEeaVt_QtpYgWvg" name="user_id">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_fh2U8HkZEeaVt_QtpYgWvg" name="returns" type="_dxkDEHkZEeaVt_QtpYgWvg" direction="return">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mVaTcHkZEeaVt_QtpYgWvg"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mVbhkHkZEeaVt_QtpYgWvg" value="*"/>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_zc5RoHkaEeaVt_QtpYgWvg" name="RulesAPI">
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_NEsY0KaaEeaj_enj8_Mmfw" name="create">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_E7WoQKacEeaj_enj8_Mmfw" name="repository_id"/>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_pkdvoKabEeaj_enj8_Mmfw" name="by_ns_name_version">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_tA2W8KabEeaj_enj8_Mmfw" name="ns"/>
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_zZxn4KabEeaj_enj8_Mmfw" name="name"/>
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_0lPVcKabEeaj_enj8_Mmfw" name="version"/>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_4uozwKabEeaj_enj8_Mmfw" name="since">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_-PiQgKabEeaj_enj8_Mmfw" name="since"/>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_OnPewKacEeaj_enj8_Mmfw" name="update">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_RGehUKacEeaj_enj8_Mmfw" name="id"/>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_zo7BsKacEeaj_enj8_Mmfw" name="destroy">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_3FkHsKacEeaj_enj8_Mmfw" name="id"/>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_vnGr0HkaEeaVt_QtpYgWvg" name="RegistryAPI">
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_CRYDYKaeEeaj_enj8_Mmfw" name="create">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_cgniAKafEeaj_enj8_Mmfw" name="repository"/>
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_dcZNwKafEeaj_enj8_Mmfw" name="url">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_EGntwKaeEeaj_enj8_Mmfw" name="show"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_FVJ9cKaeEeaj_enj8_Mmfw" name="update">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_limf4KafEeaj_enj8_Mmfw" name="repository"/>
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_mW_xQKafEeaj_enj8_Mmfw" name="url">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_G6x3cKaeEeaj_enj8_Mmfw" name="destroy"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_LRQZgLinEeawKNxSAvtp1Q" name="UBL"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_D19GoLy6Eeat5KjdXSdzvw" name="Use Cases">
+    <packagedElement xmi:type="uml:Package" xmi:id="_D19GoLy6Eeat5KjdXSdzvw" name="XA Use Cases">
       <packagedElement xmi:type="uml:Package" xmi:id="_D19Goby6Eeat5KjdXSdzvw" name="Actors">
         <ownedComment xmi:type="uml:Comment" xmi:id="_D19Gory6Eeat5KjdXSdzvw">
           <body>Actors can be either actual users or other systems that interact as part of use cases.</body>
         </ownedComment>
         <packagedElement xmi:type="uml:Actor" xmi:id="_D19Go7y6Eeat5KjdXSdzvw" name="End User">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_D19GpLy6Eeat5KjdXSdzvw" annotatedElement="_D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw _D19Go7y6Eeat5KjdXSdzvw">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19GpLy6Eeat5KjdXSdzvw" annotatedElement="_D19Go7y6Eeat5KjdXSdzvw">
             <body>An End user is any user that interacts with a system that uses Lichen services.</body>
           </ownedComment>
         </packagedElement>
         <packagedElement xmi:type="uml:Actor" xmi:id="_D19Gpby6Eeat5KjdXSdzvw" name="e-Commerce Application">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Gpry6Eeat5KjdXSdzvw" annotatedElement="_D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw _D19Gpby6Eeat5KjdXSdzvw">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Gpry6Eeat5KjdXSdzvw" annotatedElement="_D19Gpby6Eeat5KjdXSdzvw">
             <body>An e-commerce applications allows a transaction to take place.
 the e-commerce applicaiton is the link between the end user and various other entities (e.g., payer, payee, tax agent, loyalty agent, etc.).</body>
           </ownedComment>
         </packagedElement>
         <packagedElement xmi:type="uml:Actor" xmi:id="_D19Gp7y6Eeat5KjdXSdzvw" name="Lichen">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_D19GqLy6Eeat5KjdXSdzvw" annotatedElement="_D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw _D19Gp7y6Eeat5KjdXSdzvw">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19GqLy6Eeat5KjdXSdzvw" annotatedElement="_D19Gp7y6Eeat5KjdXSdzvw">
             <body>Lichen is a web application that accepts and runs rules over UBL documents .</body>
           </ownedComment>
         </packagedElement>
         <packagedElement xmi:type="uml:Actor" xmi:id="_D19Gqby6Eeat5KjdXSdzvw" name="Registry">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Gqry6Eeat5KjdXSdzvw" annotatedElement="_D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw _D19Gqby6Eeat5KjdXSdzvw">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Gqry6Eeat5KjdXSdzvw" annotatedElement="_D19Gqby6Eeat5KjdXSdzvw">
             <body>The registry is Xalgorithms's federated registry of rules.</body>
           </ownedComment>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_D19Gq7y6Eeat5KjdXSdzvw" name="Use Case - One-Pass Tax">
         <packagedElement xmi:type="uml:UseCase" xmi:id="_D19GrLy6Eeat5KjdXSdzvw" name="One-Pass Tax UC">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Grby6Eeat5KjdXSdzvw" annotatedElement="_D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19Grby6Eeat5KjdXSdzvw" annotatedElement="_D19GrLy6Eeat5KjdXSdzvw">
             <body>Xalgorithms Use Case - One-Pass Tax - Transaction Taxes/Credits
 .
 ------------
@@ -435,7 +131,8 @@ PostConditions
           <message xmi:type="uml:Message" xmi:id="_D19G8Ly6Eeat5KjdXSdzvw" name="PullResultsDataAndReferences" messageSort="asynchCall" receiveEvent="_D19Gzby6Eeat5KjdXSdzvw"/>
           <message xmi:type="uml:Message" xmi:id="_D19G8by6Eeat5KjdXSdzvw" name="PurchaseGuitar" messageSort="asynchCall" receiveEvent="_D19GyLy6Eeat5KjdXSdzvw" sendEvent="_D19Gx7y6Eeat5KjdXSdzvw"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_D19G8ry6Eeat5KjdXSdzvw" client="_D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw _D19GrLy6Eeat5KjdXSdzvw" supplier="_D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_D19G8ry6Eeat5KjdXSdzvw" client="_D19GrLy6Eeat5KjdXSdzvw" supplier="_D19HKby6Eeat5KjdXSdzvw"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_OuKXkLzAEeat5KjdXSdzvw" client="_D19Gq7y6Eeat5KjdXSdzvw" supplier="_D19Goby6Eeat5KjdXSdzvw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_D19G87y6Eeat5KjdXSdzvw" name="Use Case - Use Lichen">
         <ownedRule xmi:type="uml:InteractionConstraint" xmi:id="_D19G9Ly6Eeat5KjdXSdzvw">
@@ -494,7 +191,7 @@ PostConditions
           <message xmi:type="uml:Message" xmi:id="_D19HKLy6Eeat5KjdXSdzvw" name="Push result data and references" messageSort="asynchCall" receiveEvent="_D19HHry6Eeat5KjdXSdzvw" sendEvent="_D19HHby6Eeat5KjdXSdzvw"/>
         </packagedElement>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_D19HKby6Eeat5KjdXSdzvw" name="Use Lichen">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_D19HKry6Eeat5KjdXSdzvw" annotatedElement="_D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw _D19HKby6Eeat5KjdXSdzvw">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D19HKry6Eeat5KjdXSdzvw" annotatedElement="_D19HKby6Eeat5KjdXSdzvw">
             <body>Xalgorithms Use Case - Use Lichen
 .
 ------------
@@ -544,6 +241,7 @@ PostConditions
           <ownedEnd xmi:type="uml:Property" xmi:id="_D19HOLy6Eeat5KjdXSdzvw" name="registry" type="_D19Gqby6Eeat5KjdXSdzvw" association="_D19HNby6Eeat5KjdXSdzvw"/>
           <ownedEnd xmi:type="uml:Property" xmi:id="_D19HOby6Eeat5KjdXSdzvw" name="use lichen" type="_D19HKby6Eeat5KjdXSdzvw" association="_D19HNby6Eeat5KjdXSdzvw"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_PZS_QLzAEeat5KjdXSdzvw" client="_D19G87y6Eeat5KjdXSdzvw" supplier="_D19Goby6Eeat5KjdXSdzvw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_D19HOry6Eeat5KjdXSdzvw" memberEnd="_D19HPby6Eeat5KjdXSdzvw _D19HPry6Eeat5KjdXSdzvw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D19HO7y6Eeat5KjdXSdzvw" source="org.eclipse.papyrus">
@@ -558,6 +256,312 @@ PostConditions
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_D19HQry6Eeat5KjdXSdzvw" name="e-commerce application" type="_D19Gpby6Eeat5KjdXSdzvw" association="_D19HP7y6Eeat5KjdXSdzvw"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_D19HQ7y6Eeat5KjdXSdzvw" name="use lichen" type="_D19HKby6Eeat5KjdXSdzvw" association="_D19HP7y6Eeat5KjdXSdzvw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iqt3gLy-Eeat5KjdXSdzvw" name="XA Architecture">
+      <packagedElement xmi:type="uml:Package" xmi:id="_kw5CIHkYEeaVt_QtpYgWvg" name="Definitions">
+        <packagedElement xmi:type="uml:Class" xmi:id="_qcJ70HkYEeaVt_QtpYgWvg" name="Transaction">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_xss70HkZEeaVt_QtpYgWvg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RdMsUKapEeaj_enj8_Mmfw" name="status"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_k72sIqajEeaj_enj8_Mmfw" name="rule" type="_i7v5wKacEeaj_enj8_Mmfw" association="_k71eAKajEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_on0AgKajEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_on2cwKajEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Z9ObYaajEeaj_enj8_Mmfw" name="invoice" type="_dxkDEHkZEeaVt_QtpYgWvg" aggregation="composite" association="_Z9NNQKajEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bmoCIKajEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bmrFcKajEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_w9q4MqajEeaj_enj8_Mmfw" name="document" type="_lAK2UKahEeaj_enj8_Mmfw" association="_w9qRIKajEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zQhroKajEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zQku8KajEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dxkDEHkZEeaVt_QtpYgWvg" name="Invoice">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8cEb4KaoEeaj_enj8_Mmfw" name="public_id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OacX4KanEeaj_enj8_Mmfw" name="revision" type="_Ldj3YKakEeaj_enj8_Mmfw" aggregation="composite" association="_OabJwKanEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Pv-AYKanEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PwBDsKanEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_W8zagaanEeaj_enj8_Mmfw" name="document" type="_lAK2UKahEeaj_enj8_Mmfw" association="_W8yzcKanEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YvWWMKanEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YvYycKanEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7XvdwHkZEeaVt_QtpYgWvg" name="User">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uw-bUKacEeaj_enj8_Mmfw" name="id"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8LyPEaamEeaj_enj8_Mmfw" name="transaction" type="_qcJ70HkYEeaVt_QtpYgWvg" aggregation="composite" association="_8LxA8KamEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_954IkKamEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_956k0KamEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ksIRQqanEeaj_enj8_Mmfw" name="registration" type="_linmoKaiEeaj_enj8_Mmfw" aggregation="composite" association="_ksHDIKanEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nZNikKanEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nZTCIKanEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_i7v5wKacEeaj_enj8_Mmfw" name="Rule">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pJToMKacEeaj_enj8_Mmfw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rRy-sKacEeaj_enj8_Mmfw" name="ns">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_k73TMKajEeaj_enj8_Mmfw" name="transaction" type="_qcJ70HkYEeaVt_QtpYgWvg" association="_k71eAKajEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_btVcMKalEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_btZtoKalEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7li5AKanEeaj_enj8_Mmfw" name="public_id"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_AYtGAKaoEeaj_enj8_Mmfw" name="version"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Bke8oKaoEeaj_enj8_Mmfw" name="content"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lAK2UKahEeaj_enj8_Mmfw" name="Document">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RaV3gKanEeaj_enj8_Mmfw" name="revision" type="_Ldj3YKakEeaj_enj8_Mmfw" aggregation="composite" association="_RaUpYKanEeaj_enj8_Mmfw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_bsTkoKapEeaj_enj8_Mmfw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_d9wC0KapEeaj_enj8_Mmfw" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_linmoKaiEeaj_enj8_Mmfw" name="Registration"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Z9NNQKajEeaj_enj8_Mmfw" memberEnd="_Z9ObYaajEeaj_enj8_Mmfw _Z9QQkKajEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z9N0UKajEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z9ObYKajEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Z9QQkKajEeaj_enj8_Mmfw" name="transaction" type="_qcJ70HkYEeaVt_QtpYgWvg" association="_Z9NNQKajEeaj_enj8_Mmfw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_k71eAKajEeaj_enj8_Mmfw" memberEnd="_k72sIqajEeaj_enj8_Mmfw _k73TMKajEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k72sIKajEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k72sIaajEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_w9qRIKajEeaj_enj8_Mmfw" memberEnd="_w9q4MqajEeaj_enj8_Mmfw _w9rfQKajEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w9q4MKajEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w9q4MaajEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_w9rfQKajEeaj_enj8_Mmfw" name="transaction" type="_qcJ70HkYEeaVt_QtpYgWvg" association="_w9qRIKajEeaj_enj8_Mmfw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ldj3YKakEeaj_enj8_Mmfw" name="Revision"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_8LxA8KamEeaj_enj8_Mmfw" memberEnd="_8LyPEaamEeaj_enj8_Mmfw _8L2ggKamEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8LxoAKamEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8LyPEKamEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_8L2ggKamEeaj_enj8_Mmfw" name="user" type="_7XvdwHkZEeaVt_QtpYgWvg" association="_8LxA8KamEeaj_enj8_Mmfw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_OabJwKanEeaj_enj8_Mmfw" memberEnd="_OacX4KanEeaj_enj8_Mmfw _OacX4aanEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Oabw0KanEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Oabw0aanEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_OacX4aanEeaj_enj8_Mmfw" name="invoice" type="_dxkDEHkZEeaVt_QtpYgWvg" association="_OabJwKanEeaj_enj8_Mmfw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_RaUpYKanEeaj_enj8_Mmfw" memberEnd="_RaV3gKanEeaj_enj8_Mmfw _RaV3gaanEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RaVQcKanEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RaVQcaanEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_RaV3gaanEeaj_enj8_Mmfw" name="document" type="_lAK2UKahEeaj_enj8_Mmfw" association="_RaUpYKanEeaj_enj8_Mmfw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_W8yzcKanEeaj_enj8_Mmfw" memberEnd="_W8zagaanEeaj_enj8_Mmfw _W80BkKanEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W8yzcaanEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8zagKanEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_W80BkKanEeaj_enj8_Mmfw" name="invoice" type="_dxkDEHkZEeaVt_QtpYgWvg" association="_W8yzcKanEeaj_enj8_Mmfw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ksHDIKanEeaj_enj8_Mmfw" memberEnd="_ksIRQqanEeaj_enj8_Mmfw _ksI4UKanEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ksIRQKanEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ksIRQaanEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ksI4UKanEeaj_enj8_Mmfw" name="user" type="_7XvdwHkZEeaVt_QtpYgWvg" association="_ksHDIKanEeaj_enj8_Mmfw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_I71ksKaoEeaj_enj8_Mmfw" name="Repository">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_LUihcqaoEeaj_enj8_Mmfw" name="rule" type="_i7v5wKacEeaj_enj8_Mmfw" aggregation="composite" association="_LUh6YKaoEeaj_enj8_Mmfw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MlhoMKaoEeaj_enj8_Mmfw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MlkEcKaoEeaj_enj8_Mmfw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_d5JFEKaoEeaj_enj8_Mmfw" name="public_id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_fTotIKaoEeaj_enj8_Mmfw" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_LUh6YKaoEeaj_enj8_Mmfw" memberEnd="_LUihcqaoEeaj_enj8_Mmfw _LUkWoKaoEeaj_enj8_Mmfw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LUihcKaoEeaj_enj8_Mmfw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LUihcaaoEeaj_enj8_Mmfw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_LUkWoKaoEeaj_enj8_Mmfw" name="repository" type="_I71ksKaoEeaj_enj8_Mmfw" association="_LUh6YKaoEeaj_enj8_Mmfw"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_mAIxkHkaEeaVt_QtpYgWvg" name="XA Components">
+        <packagedElement xmi:type="uml:Component" xmi:id="_gEJCUHkcEeaVt_QtpYgWvg" name="Lichen-Xalgorithms System">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7H8m4HkcEeaVt_QtpYgWvg" name="xaRegistry" type="__XVqYHkaEeaVt_QtpYgWvg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_JbqkIHkdEeaVt_QtpYgWvg" name="xaRepository" type="_DsH5UHkbEeaVt_QtpYgWvg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cLs2UKT8EeacsMdVOoC5Hw" name="lichen" type="_Z_VFYKT8EeacsMdVOoC5Hw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_1Eso0KT_EeacsMdVOoC5Hw" name="lichenUI" type="_pO8P4HkaEeaVt_QtpYgWvg"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_QSa-kLitEeawKNxSAvtp1Q" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZUXUcLsDEeaVwomWCWTCZQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZUZJoLsDEeaVwomWCWTCZQ" value="*"/>
+          </ownedAttribute>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_9YqVAKT9EeacsMdVOoC5Hw" name="register_rules">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_9YqVAaT9EeacsMdVOoC5Hw" partWithPort="_JbqkIHkdEeaVt_QtpYgWvg" role="_1G1owKT9EeacsMdVOoC5Hw"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_9YqVAqT9EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_aTfHwHkbEeaVt_QtpYgWvg"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="__bUwUKT9EeacsMdVOoC5Hw" name="lookup_rules">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="__bUwUaT9EeacsMdVOoC5Hw" partWithPort="_cLs2UKT8EeacsMdVOoC5Hw" role="_NNWLMKT9EeacsMdVOoC5Hw"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="__bUwUqT9EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_XZu28HkcEeaVt_QtpYgWvg"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_AH8lwKT-EeacsMdVOoC5Hw" name="fetch_rules">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_AH9M0KT-EeacsMdVOoC5Hw" partWithPort="_7H8m4HkcEeaVt_QtpYgWvg" role="_tXLigLsDEeaVwomWCWTCZQ"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_AH9M0aT-EeacsMdVOoC5Hw" partWithPort="_JbqkIHkdEeaVt_QtpYgWvg" role="_F19eMHkcEeaVt_QtpYgWvg"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_UB79QLitEeawKNxSAvtp1Q">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_UB8kULitEeawKNxSAvtp1Q" role="_QSa-kLitEeawKNxSAvtp1Q"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_UB9LYLitEeawKNxSAvtp1Q" partWithPort="_cLs2UKT8EeacsMdVOoC5Hw" role="_5fsU0KT8EeacsMdVOoC5Hw"/>
+          </ownedConnector>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oeMQwKT-EeacsMdVOoC5Hw" name="LichenSystem">
+          <packagedElement xmi:type="uml:Component" xmi:id="_Z_VFYKT8EeacsMdVOoC5Hw" name="Lichen">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_5fsU0KT8EeacsMdVOoC5Hw" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite" isConjugated="true">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4OdYsKa4EeafROfZJd45vA"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4OfN4Ka4EeafROfZJd45vA" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_NNWLMKT9EeacsMdVOoC5Hw" name="rules" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cPMt4LsDEeaVwomWCWTCZQ"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cPPxMLsDEeaVwomWCWTCZQ" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_6SoiwKT-EeacsMdVOoC5Hw" name="rulesWorker" type="_0tZYkKT-EeacsMdVOoC5Hw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_1214oKeKEeaoOZZbhtj7FQ" name="lichenApp" type="_pO8P4HkaEeaVt_QtpYgWvg"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_K9FSkKeLEeaoOZZbhtj7FQ" name="uBLWorker" type="_JixQsKeLEeaoOZZbhtj7FQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_DIge0LipEeawKNxSAvtp1Q" name="storage" type="_u4cw4LimEeawKNxSAvtp1Q"/>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_JKqOgLipEeawKNxSAvtp1Q" name="transaction_enters_lichen">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_JKrcoLipEeawKNxSAvtp1Q" role="_5fsU0KT8EeacsMdVOoC5Hw"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_JKrcobipEeawKNxSAvtp1Q" role="_K9FSkKeLEeaoOZZbhtj7FQ"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_QHHqULipEeawKNxSAvtp1Q" name="push_results &amp; references">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_QHI4cLipEeawKNxSAvtp1Q" role="_K9FSkKeLEeaoOZZbhtj7FQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_QHI4cbipEeawKNxSAvtp1Q" role="_DIge0LipEeawKNxSAvtp1Q"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_ZLkGULipEeawKNxSAvtp1Q" name="user_transaction">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_ZLpl4LipEeawKNxSAvtp1Q" role="_1214oKeKEeaoOZZbhtj7FQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_ZLq0ALipEeawKNxSAvtp1Q" role="_6SoiwKT-EeacsMdVOoC5Hw"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_vsbEILipEeawKNxSAvtp1Q" name="internal_rules_package">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_vscSQLipEeawKNxSAvtp1Q" role="_6SoiwKT-EeacsMdVOoC5Hw"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_vscSQbipEeawKNxSAvtp1Q" role="_DIge0LipEeawKNxSAvtp1Q"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_DtdUELirEeawKNxSAvtp1Q" name="lookup_rules_externally">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_Dtd7ILirEeawKNxSAvtp1Q" role="_6SoiwKT-EeacsMdVOoC5Hw"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_Dtd7IbirEeawKNxSAvtp1Q" role="_NNWLMKT9EeacsMdVOoC5Hw"/>
+            </ownedConnector>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Component" xmi:id="_0tZYkKT-EeacsMdVOoC5Hw" name="RulesWorker">
+            <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JbPdoLioEeawKNxSAvtp1Q" client="_0tZYkKT-EeacsMdVOoC5Hw" supplier="_zc5RoHkaEeaVt_QtpYgWvg" contract="_zc5RoHkaEeaVt_QtpYgWvg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Component" xmi:id="_pO8P4HkaEeaVt_QtpYgWvg" name="LichenApp">
+            <packagedElement xmi:type="uml:Usage" xmi:id="_CtqyYLioEeawKNxSAvtp1Q" client="_pO8P4HkaEeaVt_QtpYgWvg" supplier="_zc5RoHkaEeaVt_QtpYgWvg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Component" xmi:id="_JixQsKeLEeaoOZZbhtj7FQ" name="UBLWorker">
+            <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_SEbWcLinEeawKNxSAvtp1Q" client="_JixQsKeLEeaoOZZbhtj7FQ" supplier="_LRQZgLinEeawKNxSAvtp1Q" contract="_LRQZgLinEeawKNxSAvtp1Q"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_hptpQLinEeawKNxSAvtp1Q" client="_JixQsKeLEeaoOZZbhtj7FQ" supplier="_MPOqMHkYEeaVt_QtpYgWvg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Component" xmi:id="_u4cw4LimEeawKNxSAvtp1Q" name="Storage">
+            <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_g-7m4LinEeawKNxSAvtp1Q" client="_u4cw4LimEeawKNxSAvtp1Q" supplier="_MPOqMHkYEeaVt_QtpYgWvg" contract="_MPOqMHkYEeaVt_QtpYgWvg"/>
+            <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_sbDaALipEeawKNxSAvtp1Q" client="_u4cw4LimEeawKNxSAvtp1Q" supplier="_zc5RoHkaEeaVt_QtpYgWvg" contract="_zc5RoHkaEeaVt_QtpYgWvg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_17uGwLffEeaGjMXS7szKPw" name="Registry">
+          <packagedElement xmi:type="uml:Component" xmi:id="__XVqYHkaEeaVt_QtpYgWvg" name="XARegistry">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_aTfHwHkbEeaVt_QtpYgWvg" name="registry" type="_vnGr0HkaEeaVt_QtpYgWvg" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_64V6EHkbEeaVt_QtpYgWvg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_64XIMHkbEeaVt_QtpYgWvg" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_XZu28HkcEeaVt_QtpYgWvg" name="rulesOut" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dccAQHkcEeaVt_QtpYgWvg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dcdOYHkcEeaVt_QtpYgWvg" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_tXLigLsDEeaVwomWCWTCZQ" name="rulesIn" visibility="public" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5BK0wLffEeaGjMXS7szKPw" name="Repository">
+          <packagedElement xmi:type="uml:Component" xmi:id="_DsH5UHkbEeaVt_QtpYgWvg" name="XARepository">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_F19eMHkcEeaVt_QtpYgWvg" name="rules" type="_zc5RoHkaEeaVt_QtpYgWvg" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bMcTkHkcEeaVt_QtpYgWvg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bMc6oHkcEeaVt_QtpYgWvg" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_1G1owKT9EeacsMdVOoC5Hw" name="register" type="_vnGr0HkaEeaVt_QtpYgWvg" aggregation="composite" isConjugated="true">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Qnfq8LsDEeaVwomWCWTCZQ"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QniHMLsDEeaVwomWCWTCZQ" value="*"/>
+            </ownedAttribute>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_C_NyQLfgEeaGjMXS7szKPw" name="ECommerceApp">
+          <packagedElement xmi:type="uml:Component" xmi:id="_3WK8MKT_EeacsMdVOoC5Hw" name="E-CommerceApp">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_3WK8MaT_EeacsMdVOoC5Hw" name="ubl" type="_LRQZgLinEeawKNxSAvtp1Q" aggregation="composite">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3WK8MqT_EeacsMdVOoC5Hw" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3WK8M6T_EeacsMdVOoC5Hw" value="1"/>
+            </ownedAttribute>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HEzHkLfgEeaGjMXS7szKPw" name="APIs">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_MPOqMHkYEeaVt_QtpYgWvg" name="InvoiceAPI">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_UTxvcHkYEeaVt_QtpYgWvg" name="users_transactions">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_XWqRoHkYEeaVt_QtpYgWvg" name="user_id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_vLVAsHkYEeaVt_QtpYgWvg" name="returns" type="_qcJ70HkYEeaVt_QtpYgWvg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aJE5cHkZEeaVt_QtpYgWvg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aJGuoHkZEeaVt_QtpYgWvg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ecazYHkYEeaVt_QtpYgWvg" name="users_invoices">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_gsVAgHkYEeaVt_QtpYgWvg" name="user_id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_fh2U8HkZEeaVt_QtpYgWvg" name="returns" type="_dxkDEHkZEeaVt_QtpYgWvg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mVaTcHkZEeaVt_QtpYgWvg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mVbhkHkZEeaVt_QtpYgWvg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_zc5RoHkaEeaVt_QtpYgWvg" name="RulesAPI">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_NEsY0KaaEeaj_enj8_Mmfw" name="create">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_E7WoQKacEeaj_enj8_Mmfw" name="repository_id"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_pkdvoKabEeaj_enj8_Mmfw" name="by_ns_name_version">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_tA2W8KabEeaj_enj8_Mmfw" name="ns"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_zZxn4KabEeaj_enj8_Mmfw" name="name"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_0lPVcKabEeaj_enj8_Mmfw" name="version"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4uozwKabEeaj_enj8_Mmfw" name="since">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_-PiQgKabEeaj_enj8_Mmfw" name="since"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_OnPewKacEeaj_enj8_Mmfw" name="update">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_RGehUKacEeaj_enj8_Mmfw" name="id"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zo7BsKacEeaj_enj8_Mmfw" name="destroy">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_3FkHsKacEeaj_enj8_Mmfw" name="id"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_vnGr0HkaEeaVt_QtpYgWvg" name="RegistryAPI">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_CRYDYKaeEeaj_enj8_Mmfw" name="create">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_cgniAKafEeaj_enj8_Mmfw" name="repository"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_dcZNwKafEeaj_enj8_Mmfw" name="url">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_EGntwKaeEeaj_enj8_Mmfw" name="show"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_FVJ9cKaeEeaj_enj8_Mmfw" name="update">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_limf4KafEeaj_enj8_Mmfw" name="repository"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_mW_xQKafEeaj_enj8_Mmfw" name="url">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_G6x3cKaeEeaj_enj8_Mmfw" name="destroy"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_LRQZgLinEeawKNxSAvtp1Q" name="UBL"/>
       </packagedElement>
     </packagedElement>
   </packagedElement>
